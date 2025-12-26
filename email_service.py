@@ -4,10 +4,16 @@ from googleapiclient.discovery import build
 import base64
 from dataclasses import  dataclass
 from typing import Generator
+import os,json
+TMP_CREDS_SAVE_PATH = "secrets/gmail_token.json"
+
 @dataclass
 class Email:
     subject : str
     body : str
+
+    def __str__(self):
+        return f"Subject: {self.subject}\nBody: {self.body}"
 
 class EmailService:
     """For reading emails from a personal Gmail account using Gmail API."""
@@ -62,3 +68,25 @@ class EmailService:
             )
 
 
+    @staticmethod   
+    def create_email_service():
+        SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
+
+
+        if not os.path.exists(TMP_CREDS_SAVE_PATH):
+            flow = InstalledAppFlow.from_client_secrets_file(
+                "secrets/gmail_client_secret.json", SCOPES
+            )
+            creds = flow.run_local_server(port=0)
+            with open(TMP_CREDS_SAVE_PATH, "w") as token:
+                token.write(creds.to_json())
+        else:
+            with open(TMP_CREDS_SAVE_PATH, "r") as token:
+                creds = Credentials.from_authorized_user_info(json.load(token), SCOPES)
+
+        return EmailService(creds)
+    
+    @staticmethod
+    def clear_saved_credentials():
+        if os.path.exists(TMP_CREDS_SAVE_PATH):
+            os.remove(TMP_CREDS_SAVE_PATH)

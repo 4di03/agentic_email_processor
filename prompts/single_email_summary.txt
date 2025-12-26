@@ -1,0 +1,11 @@
+Summarize a single email into max of 3 bullets : 
+{email}
+
+The most important points are:
+- action items required from me
+- deadlines or dates mentioned
+- key decisions or updates
+
+make sure at least one bullet actually summarizes the content of the email. 
+
+The response should have no more than 1000 characters.

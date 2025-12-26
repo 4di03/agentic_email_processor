@@ -1,0 +1,21 @@
+I have a busy inbox. Below are some emails I've received recently:
+{emails}
+
+Please summarize only the relevant emails. I don't care about:
+- Spam or promotional emails
+- Newsletters
+- Social media notifications
+- articles or blog posts
+
+I care MOST about emails that require my attention or action, such as:
+- Emails from colleagues or clients or work-related
+- emails directly from a person, not automated or a company
+- important updates or alerts
+- meeting requests or calendar invites
+
+For each relevant email, provide:
+1. A brief summary of the email content, and any action items if present (2-3 sentences)
+2. the subject of the email so that i can easily identify it later
+
+If there are no relevant emails, simply respond with "No relevant emails."
+Include ONLY the summary or the above text in the response, nothing else.

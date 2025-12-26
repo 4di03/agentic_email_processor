@@ -1,15 +1,14 @@
-import requests
-import json 
-MODEL = 'llama3.1:8b'
-STREAM = True
-# assumes ollama is running with `ollama serve` and the above model is downloaded `ollama pull <MODEL>`
-url = "http://localhost:11434/api/generate"
-payload = {
-    "model": MODEL,
-    "prompt": "what is your name, and what do you do?",
-    "stream": STREAM
-}
+from llm_service import LocalLlamaService
 
-r = requests.post(url, json=payload, stream=STREAM)
-for line in r.iter_lines():
-    print(json.loads(line)["response"],end = '' , flush=True)
+if __name__ == "__main__":
+    llm_service = LocalLlamaService()
+    prompt = "Once upon a time in a land far, far away,"
+    
+    while True:
+        prompt = input("Enter your prompt (or 'q' to quit): ")
+        if prompt.lower() == 'q':
+            break
+        print("Generating response:\n")
+        for chunk in llm_service. generate_text_stream(prompt):
+            print(chunk, end='', flush=True)
+        print("\nEnd of response.\n")
