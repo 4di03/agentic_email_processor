@@ -15,11 +15,12 @@ class LLMService(ABC):
     def generate_text(self, prompt: str) -> str:
         return ''.join(list(self.generate_text_stream(prompt)))
 
-
+LLAMA_3_1 = 'llama3.1:8b'
+LLAMA_3_2_1B = 'llama3.2:1b'
 
 class LocalLlamaService(LLMService):
     """LLM Service using a local LLaMA model via REST API."""
-    MODEL = 'llama3.1:8b'
+    MODEL = LLAMA_3_2_1B
     def __init__(self, endpoint: str = LOCAL_LLAMA_ENDPOINT):
         self.endpoint = endpoint
 

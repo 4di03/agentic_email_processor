@@ -7,6 +7,8 @@ from typing import Generator
 import os,json
 TMP_CREDS_SAVE_PATH = "secrets/gmail_token.json"
 
+
+
 @dataclass
 class Email:
     subject : str
@@ -14,6 +16,7 @@ class Email:
 
     def __str__(self):
         return f"Subject: {self.subject}\nBody: {self.body}"
+    
 
 class EmailService:
     """For reading emails from a personal Gmail account using Gmail API."""
@@ -40,7 +43,7 @@ class EmailService:
             for part in parts:
                 if part["mimeType"] == "text/plain":
                     return base64.urlsafe_b64decode(part["body"]["data"]).decode("utf-8")
-        if "body" in msg["payload"]:
+        if "body" in msg["payload"] and "data" in msg["payload"]["body"]:
             return base64.urlsafe_b64decode(msg["payload"]["body"]["data"]).decode("utf-8")
         return "No Body"
 

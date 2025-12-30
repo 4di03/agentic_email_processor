@@ -2,9 +2,10 @@ Summarize a single email into max of 3 bullets :
 {email}
 
 The most important points are:
-- action items required from me
-- deadlines or dates mentioned
+- action items required from me, especially for legal, financial, or work-related emails
+- deadlines or dates mentioned, especially those where i may miss out on deals or saving money
 - key decisions or updates
+
 
 make sure at least one bullet actually summarizes the content of the email. 
 

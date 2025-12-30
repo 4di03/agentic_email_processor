@@ -7,15 +7,18 @@ Please summarize only the relevant emails. I don't care about:
 - Social media notifications
 - articles or blog posts
 
-I care MOST about emails that require my attention or action, such as:
+For EACH relevant email, provide the following STRUCTURED output:
+{
+    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
+    "subject": "The subject of the email for easy identification, should be an exact match with the subject inputted"
+}
+
+Remember to include such a structured json object if the email is one of the following:
 - Emails from colleagues or clients or work-related
 - emails directly from a person, not automated or a company
 - important updates or alerts
 - meeting requests or calendar invites
 
-For each relevant email, provide:
-1. A brief summary of the email content, and any action items if present (2-3 sentences)
-2. the subject of the email so that i can easily identify it later
+If there are no relevant emails, simply respond with an empty list. To be 100% clear, the output should be a list of JSON objects, one per relevant email. 
 
-If there are no relevant emails, simply respond with "No relevant emails."
-Include ONLY the summary or the above text in the response, nothing else.
+The entire output MUST be a valid JSON array.

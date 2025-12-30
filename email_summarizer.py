@@ -3,9 +3,45 @@
 from email_service import EmailService, Email
 from llm_service import LLMService
 
-DEBUG = True
+import re
+from html import unescape
+from logger import Logger
+def strip_html_and_urls(text: str) -> str:
+    """
+    Removes HTML tags and URLs from the given text.
+    """
+    if not text:
+        return ""
+
+    # Decode HTML entities (&nbsp;, &amp;, etc.)
+    text = unescape(text)
+
+    # Remove script and style blocks completely
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", text, flags=re.DOTALL | re.IGNORECASE)
+
+    # Remove all HTML tags
+    text = re.sub(r"<[^>]+>", "", text)
+
+    # Remove URLs (http, https, www)
+    text = re.sub(
+        r"https?://\S+|www\.\S+",
+        "",
+        text,
+        flags=re.IGNORECASE
+    )
+
+    # Normalize whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
+
+
+DEBUG = False
 SUMMARIZER_PROMPT_PATH = "prompts/email_summarizer.txt"
 SINGLE_SUMMARY_PROMPT_PATH = "prompts/single_email_summary.txt"
+
+logger = Logger(context = "EmailSummarizer", debug=DEBUG)
+
 class EmailSummarizer:
     SUMMARIZER_PROMPT_TEMPLATE = open(SUMMARIZER_PROMPT_PATH, 'r').read()
     SINGLE_SUMMARY_PROMPT_TEMPLATE = open(SINGLE_SUMMARY_PROMPT_PATH, 'r').read()
@@ -22,12 +58,15 @@ class EmailSummarizer:
         return summary
     
     def _summarize_single_email(self, email : Email):
+        email_str = strip_html_and_urls(str(email))
+        logger.log("Summarizing Email:\n" + email_str)
+
         prompt = self.SINGLE_SUMMARY_PROMPT_TEMPLATE.replace(
-            "{email}", str(email)
+            "{email}", email_str
         )
         summary = self.llm_service.generate_text(prompt)
-        if (DEBUG):
-            print("Single Email Summary:", summary)
+        logger.log("Single Email Summary: " + summary)
+
         return summary
     
     def summarize_last_n_emails(self, n=5):
