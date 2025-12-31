@@ -5,7 +5,7 @@ from langchain.tools import tool, ToolRuntime
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.chat_models import init_chat_model
 from langgraph.checkpoint.memory import InMemorySaver
-
+from pprint import pprint
 checkpointer = InMemorySaver()
 
 TEMPERATURE = 0 # Higher temperature means more creative/stochastic responses, lower means more deterministic (0 just takes max prob everytime)
@@ -73,13 +73,13 @@ if __name__ == "__main__":
         context=Context(user_id="1")
     )
 
-    print(response['structured_response'])
+    pprint(response)#['structured_response'])
 
-    # Note that we can continue the conversation using the same `thread_id`.
-    response = agent.invoke(
-        {"messages": [{"role": "user", "content": "thank you!"}]},
-        config=config,
-        context=Context(user_id="1")
-    )
+    # # Note that we can continue the conversation using the same `thread_id`.
+    # response = agent.invoke(
+    #     {"messages": [{"role": "user", "content": "thank you!"}]},
+    #     config=config,
+    #     context=Context(user_id="1")
+    # )
 
-    print(response['structured_response'])
+    # pprint(response)#['structured_response'])

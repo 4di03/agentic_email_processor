@@ -1,375 +1,1844 @@
 [EmailSummarizer] Summarizing Email:
-Subject: Your latest Oracle jobs Body: Hello Adithya, Welcome to your Oracle jobs update. Check out our latest roles for you: Undergrad Thermal Engineering Intern - Oracle Cloud Infrastructure (OCI) - Burlington, MAAdvanced Degree Software Engineer Intern - Database Technologies Discover more jobs Find a full list of all our open positions right now on our career site: See all jobs Thank you, Oracle Talent Acquisition You are receiving this email as you opted in to alerts for new job opportunities. If you are no longer interested you can unsubscribe or you can update your job preferences at any time. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The sender, Oracle Talent Acquisition, wants you to check their latest job opportunities for Undergrad Thermal Engineering Intern and Advanced Degree Software Engineer Intern roles.
-* You can find all open positions on their career site: [insert link].
-* If you opt out or need accessibility assistance, please contact accommodation-request_mb@oracle.com or +1 888 404 2494.
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
 [EmailSummarizer] Summarizing Email:
-Subject: Learning Spotlight: Smarter Workflows with AI Body: Header: Practical AI for Your Workday Whether you're writing, analyzing, planning, or collaborating, AI can help you do it more efficiently. These expert-led courses will show you how to use AI for better workflows, smarter decisions, and more impactful results. All the best! Shea Hanson, Head of Learning Content Strategy, LinkedIn Learning ---------------- Everyday AI: 15 Practical Skills to Build Confidence With AI Across 15 challenges, you will complete hands-on mini projects that help you write better prompts, organize your day, brainstorm creative ideas, turn voice notes into polished text, and automate tasks you repeat every week. You will also learn how to design simple AI systems that prepare you to build your first no-code AI agent. By the end of the course, you will have a collection of practical AI workflows and a ready-to-use blueprint you can bring into a no-code agent builder. Start small, learn by doing, and walk away confident in your ability to use and build with AI. Save: ---------------- AI Prompts for Deep Research: Real‑World Use Cases Discover how to turn AI into a powerful research assistant that thinks deeper, synthesizes faster, and delivers valuable insights you can act on. In this focused, practical course, instructor Dave Birss demonstrates how to craft high-impact prompts to conduct competitor analysis, explore market trends, uncover niche opportunities, and support strategic decision-making. Dave shows how to structure and refine your queries to extract richer, more relevant information—without wasting time on generic results. He also explores real-world use cases, shares adaptable prompt templates, and reviews techniques for validating AI output, applying research frameworks, and generating clear, shareable findings. Whether you’re working in strategy, marketing, product development, or consulting, this course can equip you with the skills to unlock AI’s research capabilities and elevate the quality of your thinking and analysis. This course was created by Dave Birss. We are pleased to host this training in our library. Save: ---------------- Using Generative AI Ethically at Work While many people have found the benefits of using generative AI at work, it's important to understand how to navigate the ethical decisions and issues that can come with using these powerful tools. In this course, the founder of Ethically Aligned AI, Katrina Ingram, shares strategies anyone can use, regardless of your role, to make more conscious, ethical decisions when using generative AI. Katrina covers some of the important legal considerations, how to recognize ethical choices, and how to make more ethical decisions as an employee. You’ll discover ways to use these tools in specific cases, while staying mindful of issues regarding copyright, privacy, cybersecurity risks, and AI etiquette. By the end of this course, you’ll also be prepared to avoid common generative AI missteps and mitigate risks for you and your organization. Save: ---------------- AI Productivity with MCP: How to Leverage MCP Servers with Claude Model Context Protocol (MCP) makes it easier than ever for developers to build secure, two-way connections between external apps and AI-powered tools. In this course, AI consultant Harshit Tyagi teaches you how to harness MCP servers to supercharge your productivity workflows with AI assistants like ChatGPT and Claude. Learn how to automate tedious tasks by connecting AI to your existing tools—from transforming email chaos into business intelligence to converting meeting transcripts into actionable project items. With hands-on examples, you'll get a chance to master techniques for instant data analysis in spreadsheets, automated research reporting, and cross-platform workflow automation. By the end of this course, you'll be equipped with the skills you need to eliminate manual busy work and focus on high-value activities that drive long-term results. Save: ---------------- Build Your AI-Powered Project Workflow with ChatGPT (No Code Required) Transform your project management approach by integrating AI technologies like ChatGPT to speed up planning, tighten decisions, manage your projects better, and stay competitive in today’s career landscape. In this course, instructor Andrew Stellman guides you through the essentials of automating project documentation, refining stakeholder communications, and managing risks with AI support. Along the way, learn how to use AI to build a comprehensive project charter, manage scope effectively, create a detailed risk register, and draft compelling stakeholder communications—all using AI tools. Gain insights into agile methodologies, discover how to adapt your project strategies to accommodate changes, and develop confidence with AI in real-world project workflows. Whether you're studying for the PMP certification or looking to innovate your current workflow, this course equips you with the tools and skills you need to streamline your work quickly and effectively. Save: ---------------- Agentic AI Planning and Reasoning Design Patterns There are foundational design techniques commonly used to build agentic AI solutions with basic planning and reasoning capabilities. This course goes beyond those techniques to explore a range of intermediate and advanced design approaches focused on specialized agent architectures that can be designed to carry out diverse forms of runtime planning and reasoning logic, as well as self-correction logic and adaptive learning capabilities that do not rely on model training. Join LinkedIn Top Voice and best-selling author Thomas Erl as he covers a set of design patterns that reveal sophisticated and powerful ways in which agentic AI solutions can be tailored to perform different types of planning and reasoning logic based on different business requirements and performance constraints.This course was created by Thomas Erl. We are pleased to host this training in our library. Save: ---------------- Your Top AI Questions Answered: AI Literacy for Everyone Explore the dynamic landscape of artificial intelligence and gain a strong understanding of both traditional and generative AI. Join instructor and generative AI expert Dr. Marily Nika as she offers an overview of the history of AI—from its conceptual inception to its current state. Discover the differences between traditional AI and generative AI, before diving into constructing effective prompts to enhance the usefulness of AI responses in various contexts. Learn about key technologies including transformer architecture, large language models (LLMs), and real-world applications like chatbots, translators, and agents. Along the way, Marily covers the importance of data quality, expert human contribution, and the back-end technology, such as GPUs, all of which are essential for training AI systems. This course is an ideal fit for tech enthusiasts, data scientists, professionals in tech-driven fields, and anyone looking to leverage AI for personal or professional growth. Save: ---------------- Prompting with Agentic Techniques Discover how prompting is evolving from single-task requests to agent-driven collaboration. You’ll learn to use integrated tools for research, planning, and automation through deep searches, custom projects, and browser-based agents that work alongside you. Save: ---------------- Hands-On Data Analysis with ChatGPT-5 Working with data can be time-consuming and complex, but AI can help. This course shows you how to use ChatGPT-5 as a hands-on partner in data analysis. You’ll learn how to load and explore datasets, clean messy data, uncover patterns, and generate visualizations using the Advanced Data Analysis feature. ChatGPT-5 can also explain results in plain language, helping you communicate insights clearly. Whether you’re an analyst or a professional who works with data, this course helps you combine your expertise with AI to boost productivity and uncover deeper insights. Save: ---------------- Learning Glean AI: From Data Insights to AI Agents Learn how to put Glean, the widely used AI work assistant, to work for your organization. In this hands-on, prompt-based course, instructor Sudha Jamthe shows you how to use natural language prompts to access, summarize, and compare documents, as well as chat with files in real time. Sudha also explores how to build agents to automate data-driven tasks using Microsoft Office files, Google Docs and Sheets, Slack messages, OneDrive files, and more. By the end of this course, you'll be ready to apply Glean to boost productivity and automate tasks in your corporate environment. Save: ---------------------------------------- This email was intended for Adithya Palle (Incoming @ D. E. Shaw Research | CS + Physics @ Northeastern | Prev SpaceX, Meta) Learn why we included this: You are receiving LinkedIn notification emails. Unsubscribe: Help: © 2025 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA 94085. LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The "Learning Spotlight" series offers courses on practical AI for workday tasks, including Smarter Workflows with AI, Everyday AI: Practical Skills to Build Confidence, and AI Productivity with MCP.
-* These courses are created by experts like Shea Hanson (LinkedIn Learning), Dave Birss (Ethically Aligned AI), Harshit Tyagi (MCP), Andrew Stellman (ChatGPT), Thomas Erl (Agentic AI Planning and Reasoning), Dr. Marily Nika, Sudha Jamthe (Learning Glean AI).
-* Action items include completing courses, applying the knowledge to your work, and setting deadlines for completion.
-[EmailSummarizer] Summarizing Email:
-Subject: Use Your Leftover FSA for Fitness! 🏋🏻 Body: Find Results Your Way for $1 Down 🏋️‍♀️ 96 Your FSA dollars may cover fitness.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Plus, your first month’s dues FREE! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your FSA dollars may cover fitness. | View in web browser Turn unused HSA/FSA dollars into fitness The December 31 deadline is coming fast, and an average of $422 HSA/FSA dollars go unused every year. You may be able to use your remaining balance through Truemed on membership dues or Personal Training and invest in a healthier start to the new year. Use it before it’s gone. GET STARTED Live Healthy Everywhere with our 24GO®App See TrueMed website for required fees, eligibility requirements and complete details.Texas Health Studio #080501. Apple is a trademark of Apple, Inc., registered in the U.S. and other countries. App Store is a service mark of Apple, Inc. Google Play is a trademark of Google, Inc.This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* To use FSA dollars for fitness, find results on your way using $1 down and 96 dollars to cover fitness.
-* The deadline for unused HSA/FSA dollars is December 31.
-* Use before it's gone to invest in a healthier start to the new year.
-[EmailSummarizer] Summarizing Email:
-Subject: Feel Stronger Every Time with HIIT24™ Body: Power Your Holidays With 30% Off Creatine 💪 96 Your new favorite workout is waiting.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Our Black Friday sale is on! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your new favorite workout is waiting. | View in web browser Sweat with purpose.Train with confidence. Get it done and have fun with HIIT24™. Our signature twist on high intensity interval training is designed to help you maximize results in minimal time no matter where you're starting. Expect heart pumping intervals, high energy coaching and a workout that leaves you feeling stronger every time. BOOK A CLASS RYSE™ Loaded Protein:Holiday Flavor, Serious Benefits RYSE™ Loaded Protein in Christmas Tree Cakes flavor delivers 25g of premium whey protein per serving, with whey isolate as the primary protein source, plus 1g of MCTs for added fuel and 1g of organic prebiotic fiber to support digestion. Enjoy this festive flavor for a limited time, now available at 24STORE®. FIND A CLUB Classes Personal Training My Account Live Healthy Everywhere with our 24GO®App Must be 18 years old or 12 with parent. Facilities, classes, amenities and club hours vary per location. Membership does not include group or individual training, specialized classes or special services that are subject to separate agreements with 24 Hour and may require payment of a fee.Member must enroll in the FitPerks™ loyalty program to redeem earned points and rewards. The 24GO® app is free to download and use. Message and data rates may apply. Access to select 24GO® content and functionality may require an additional fee. Please consult a physician before starting or changing a fitness program. See FitPerks™ Rules for more details. Texas Health Studio #080501. This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in three bullets:
-
-* You are invited to participate in a Black Friday sale with a discount on HIIT24 Body supplements, including RYSE Loaded Protein.
-* The sale starts now and runs through December 31st.
-* To access the discount, enroll in the FitPerks loyalty program or download the 24GO app.
-[EmailSummarizer] Summarizing Email:
-Subject: Re: [PLEASE UPDATE] - State and Local Tax Form Body: No Body
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• The State and Local Tax Form Body has been updated, which means you need to update your information.
-• A deadline for this update has been set: January 31st for state forms and February 28th for local forms.
-• Please review your form and make any necessary updates before the deadlines.
-[TestEmailSummarizer] Email Summary:
-{
-    "summary": "Email from Oracle Talent Acquisition regarding job opportunities and career site information",
-    "subject": "Oracle Talent Acquisition: Job Opportunities and Career Site Information"
-}
-
-{
-    "summary": "Learning Spotlight courses on practical AI for workday tasks",
-    "subject": "Learning Spotlight: Practical AI Courses for Workday Tasks"
-}
-
-{
-    "summary": "Action items to complete Learning Spotlight courses, apply knowledge to work, and set deadlines",
-    "subject": "Take Action: Completing Learning Spotlight Courses"
-}
-
-{
-    "summary": "Important notice about FSA dollars and fitness results",
-    "subject": "FSA Dollars and Fitness Results"
-}
-
-{
-    "summary": "Black Friday sale on HIIT24 Body supplements and FitPerks loyalty program",
-    "subject": "Black Friday Sale: HIIT24 Body Supplements and FitPerks Loyalty Program"
-}
-
-{
-    "summary": "Important update on State and Local Tax Form Body due date",
-    "subject": "State and Local Tax Form Body Update Due Date"
-}
-[EmailSummarizer] Summarizing Email:
-Subject: Your latest Oracle jobs Body: Hello Adithya, Welcome to your Oracle jobs update. Check out our latest roles for you: Undergrad Thermal Engineering Intern - Oracle Cloud Infrastructure (OCI) - Burlington, MAAdvanced Degree Software Engineer Intern - Database Technologies Discover more jobs Find a full list of all our open positions right now on our career site: See all jobs Thank you, Oracle Talent Acquisition You are receiving this email as you opted in to alerts for new job opportunities. If you are no longer interested you can unsubscribe or you can update your job preferences at any time. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• You are receiving an update from Oracle Talent Acquisition with job listings and information on how to apply.
-• Check out our latest open positions, including Undergrad Thermal Engineering Intern and Advanced Degree Software Engineer Intern.
-• To ensure you don't miss any opportunities or deadlines, please review your job preferences and unsubscribe or update them at any time.
-[EmailSummarizer] Summarizing Email:
-Subject: Learning Spotlight: Smarter Workflows with AI Body: Header: Practical AI for Your Workday Whether you're writing, analyzing, planning, or collaborating, AI can help you do it more efficiently. These expert-led courses will show you how to use AI for better workflows, smarter decisions, and more impactful results. All the best! Shea Hanson, Head of Learning Content Strategy, LinkedIn Learning ---------------- Everyday AI: 15 Practical Skills to Build Confidence With AI Across 15 challenges, you will complete hands-on mini projects that help you write better prompts, organize your day, brainstorm creative ideas, turn voice notes into polished text, and automate tasks you repeat every week. You will also learn how to design simple AI systems that prepare you to build your first no-code AI agent. By the end of the course, you will have a collection of practical AI workflows and a ready-to-use blueprint you can bring into a no-code agent builder. Start small, learn by doing, and walk away confident in your ability to use and build with AI. Save: ---------------- AI Prompts for Deep Research: Real‑World Use Cases Discover how to turn AI into a powerful research assistant that thinks deeper, synthesizes faster, and delivers valuable insights you can act on. In this focused, practical course, instructor Dave Birss demonstrates how to craft high-impact prompts to conduct competitor analysis, explore market trends, uncover niche opportunities, and support strategic decision-making. Dave shows how to structure and refine your queries to extract richer, more relevant information—without wasting time on generic results. He also explores real-world use cases, shares adaptable prompt templates, and reviews techniques for validating AI output, applying research frameworks, and generating clear, shareable findings. Whether you’re working in strategy, marketing, product development, or consulting, this course can equip you with the skills to unlock AI’s research capabilities and elevate the quality of your thinking and analysis. This course was created by Dave Birss. We are pleased to host this training in our library. Save: ---------------- Using Generative AI Ethically at Work While many people have found the benefits of using generative AI at work, it's important to understand how to navigate the ethical decisions and issues that can come with using these powerful tools. In this course, the founder of Ethically Aligned AI, Katrina Ingram, shares strategies anyone can use, regardless of your role, to make more conscious, ethical decisions when using generative AI. Katrina covers some of the important legal considerations, how to recognize ethical choices, and how to make more ethical decisions as an employee. You’ll discover ways to use these tools in specific cases, while staying mindful of issues regarding copyright, privacy, cybersecurity risks, and AI etiquette. By the end of this course, you’ll also be prepared to avoid common generative AI missteps and mitigate risks for you and your organization. Save: ---------------- AI Productivity with MCP: How to Leverage MCP Servers with Claude Model Context Protocol (MCP) makes it easier than ever for developers to build secure, two-way connections between external apps and AI-powered tools. In this course, AI consultant Harshit Tyagi teaches you how to harness MCP servers to supercharge your productivity workflows with AI assistants like ChatGPT and Claude. Learn how to automate tedious tasks by connecting AI to your existing tools—from transforming email chaos into business intelligence to converting meeting transcripts into actionable project items. With hands-on examples, you'll get a chance to master techniques for instant data analysis in spreadsheets, automated research reporting, and cross-platform workflow automation. By the end of this course, you'll be equipped with the skills you need to eliminate manual busy work and focus on high-value activities that drive long-term results. Save: ---------------- Build Your AI-Powered Project Workflow with ChatGPT (No Code Required) Transform your project management approach by integrating AI technologies like ChatGPT to speed up planning, tighten decisions, manage your projects better, and stay competitive in today’s career landscape. In this course, instructor Andrew Stellman guides you through the essentials of automating project documentation, refining stakeholder communications, and managing risks with AI support. Along the way, learn how to use AI to build a comprehensive project charter, manage scope effectively, create a detailed risk register, and draft compelling stakeholder communications—all using AI tools. Gain insights into agile methodologies, discover how to adapt your project strategies to accommodate changes, and develop confidence with AI in real-world project workflows. Whether you're studying for the PMP certification or looking to innovate your current workflow, this course equips you with the tools and skills you need to streamline your work quickly and effectively. Save: ---------------- Agentic AI Planning and Reasoning Design Patterns There are foundational design techniques commonly used to build agentic AI solutions with basic planning and reasoning capabilities. This course goes beyond those techniques to explore a range of intermediate and advanced design approaches focused on specialized agent architectures that can be designed to carry out diverse forms of runtime planning and reasoning logic, as well as self-correction logic and adaptive learning capabilities that do not rely on model training. Join LinkedIn Top Voice and best-selling author Thomas Erl as he covers a set of design patterns that reveal sophisticated and powerful ways in which agentic AI solutions can be tailored to perform different types of planning and reasoning logic based on different business requirements and performance constraints.This course was created by Thomas Erl. We are pleased to host this training in our library. Save: ---------------- Your Top AI Questions Answered: AI Literacy for Everyone Explore the dynamic landscape of artificial intelligence and gain a strong understanding of both traditional and generative AI. Join instructor and generative AI expert Dr. Marily Nika as she offers an overview of the history of AI—from its conceptual inception to its current state. Discover the differences between traditional AI and generative AI, before diving into constructing effective prompts to enhance the usefulness of AI responses in various contexts. Learn about key technologies including transformer architecture, large language models (LLMs), and real-world applications like chatbots, translators, and agents. Along the way, Marily covers the importance of data quality, expert human contribution, and the back-end technology, such as GPUs, all of which are essential for training AI systems. This course is an ideal fit for tech enthusiasts, data scientists, professionals in tech-driven fields, and anyone looking to leverage AI for personal or professional growth. Save: ---------------- Prompting with Agentic Techniques Discover how prompting is evolving from single-task requests to agent-driven collaboration. You’ll learn to use integrated tools for research, planning, and automation through deep searches, custom projects, and browser-based agents that work alongside you. Save: ---------------- Hands-On Data Analysis with ChatGPT-5 Working with data can be time-consuming and complex, but AI can help. This course shows you how to use ChatGPT-5 as a hands-on partner in data analysis. You’ll learn how to load and explore datasets, clean messy data, uncover patterns, and generate visualizations using the Advanced Data Analysis feature. ChatGPT-5 can also explain results in plain language, helping you communicate insights clearly. Whether you’re an analyst or a professional who works with data, this course helps you combine your expertise with AI to boost productivity and uncover deeper insights. Save: ---------------- Learning Glean AI: From Data Insights to AI Agents Learn how to put Glean, the widely used AI work assistant, to work for your organization. In this hands-on, prompt-based course, instructor Sudha Jamthe shows you how to use natural language prompts to access, summarize, and compare documents, as well as chat with files in real time. Sudha also explores how to build agents to automate data-driven tasks using Microsoft Office files, Google Docs and Sheets, Slack messages, OneDrive files, and more. By the end of this course, you'll be ready to apply Glean to boost productivity and automate tasks in your corporate environment. Save: ---------------------------------------- This email was intended for Adithya Palle (Incoming @ D. E. Shaw Research | CS + Physics @ Northeastern | Prev SpaceX, Meta) Learn why we included this: You are receiving LinkedIn notification emails. Unsubscribe: Help: © 2025 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA 94085. LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The sender (Shea Hanson, Head of Learning Content Strategy) is sharing practical AI-powered learning opportunities for improving workday efficiency and decision-making.
-* These include expert-led courses on Smarter Workflows with AI, Everyday AI, AI Prompts for Deep Research, Using Generative AI Ethically at Work, AI Productivity with MCP, Build Your AI-Powered Project Workflow, Agentic AI Planning and Reasoning Design Patterns, Your Top AI Questions Answered, Prompting with Agentic Techniques, Hands-On Data Analysis, Learning Glean AI.
-* Deadline to complete the courses is May 26, 2023.
-[EmailSummarizer] Summarizing Email:
-Subject: Use Your Leftover FSA for Fitness! 🏋🏻 Body: Find Results Your Way for $1 Down 🏋️‍♀️ 96 Your FSA dollars may cover fitness.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Plus, your first month’s dues FREE! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your FSA dollars may cover fitness. | View in web browser Turn unused HSA/FSA dollars into fitness The December 31 deadline is coming fast, and an average of $422 HSA/FSA dollars go unused every year. You may be able to use your remaining balance through Truemed on membership dues or Personal Training and invest in a healthier start to the new year. Use it before it’s gone. GET STARTED Live Healthy Everywhere with our 24GO®App See TrueMed website for required fees, eligibility requirements and complete details.Texas Health Studio #080501. Apple is a trademark of Apple, Inc., registered in the U.S. and other countries. App Store is a service mark of Apple, Inc. Google Play is a trademark of Google, Inc.This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here are three bullets summarizing the email:
-
-• Your FSA dollars (for Health Savings Account) may cover fitness expenses, with $422 going unused on average annually.
-• The deadline to use unused HSA/FSA funds is December 31st, and you can invest them in a healthier start to the new year through options like personal training or membership dues.
-[EmailSummarizer] Summarizing Email:
-Subject: Feel Stronger Every Time with HIIT24™ Body: Power Your Holidays With 30% Off Creatine 💪 96 Your new favorite workout is waiting.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Our Black Friday sale is on! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your new favorite workout is waiting. | View in web browser Sweat with purpose.Train with confidence. Get it done and have fun with HIIT24™. Our signature twist on high intensity interval training is designed to help you maximize results in minimal time no matter where you're starting. Expect heart pumping intervals, high energy coaching and a workout that leaves you feeling stronger every time. BOOK A CLASS RYSE™ Loaded Protein:Holiday Flavor, Serious Benefits RYSE™ Loaded Protein in Christmas Tree Cakes flavor delivers 25g of premium whey protein per serving, with whey isolate as the primary protein source, plus 1g of MCTs for added fuel and 1g of organic prebiotic fiber to support digestion. Enjoy this festive flavor for a limited time, now available at 24STORE®. FIND A CLUB Classes Personal Training My Account Live Healthy Everywhere with our 24GO®App Must be 18 years old or 12 with parent. Facilities, classes, amenities and club hours vary per location. Membership does not include group or individual training, specialized classes or special services that are subject to separate agreements with 24 Hour and may require payment of a fee.Member must enroll in the FitPerks™ loyalty program to redeem earned points and rewards. The 24GO® app is free to download and use. Message and data rates may apply. Access to select 24GO® content and functionality may require an additional fee. Please consult a physician before starting or changing a fitness program. See FitPerks™ Rules for more details. Texas Health Studio #080501. This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in three bullets:
-
-* HIIT24 Body: Power Your Holidays With 30% Off Creatine (subject) - The website is offering a limited-time discount on its product, with "30% off" being advertised as a key benefit.
-* Deadline for action: The Black Friday sale ends on December 26, so we need to take advantage of the offer by December 25 or 26 to save money.
-* Key decision: We should book a class in our area, especially if it's one that requires a membership, to maximize results and have fun.
-[EmailSummarizer] Summarizing Email:
-Subject: Re: [PLEASE UPDATE] - State and Local Tax Form Body: No Body
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Action items required from you, including legal and financial matters.
-• Deadlines for responses are mentioned, especially those related to saving money or missing deals.
-• Key decisions or updates require your attention, including changes to tax forms.
-[TestEmailSummarizer] Email Summary:
-NO_RELEVANT_EMAILS
-[EmailSummarizer] Summarizing Email:
-Subject: Your latest Oracle jobs Body: Hello Adithya, Welcome to your Oracle jobs update. Check out our latest roles for you: Undergrad Thermal Engineering Intern - Oracle Cloud Infrastructure (OCI) - Burlington, MAAdvanced Degree Software Engineer Intern - Database Technologies Discover more jobs Find a full list of all our open positions right now on our career site: See all jobs Thank you, Oracle Talent Acquisition You are receiving this email as you opted in to alerts for new job opportunities. If you are no longer interested you can unsubscribe or you can update your job preferences at any time. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S.
-[EmailSummarizer] Summarizing Email:
-Subject: Your latest Oracle jobs Body: Hello Adithya, Welcome to your Oracle jobs update. Check out our latest roles for you: Undergrad Thermal Engineering Intern - Oracle Cloud Infrastructure (OCI) - Burlington, MAAdvanced Degree Software Engineer Intern - Database Technologies Discover more jobs Find a full list of all our open positions right now on our career site: See all jobs Thank you, Oracle Talent Acquisition You are receiving this email as you opted in to alerts for new job opportunities. If you are no longer interested you can unsubscribe or you can update your job preferences at any time. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Action items: Review and respond to Oracle jobs update, including reviewing Undergrad Thermal Engineering Intern opportunities and applying.
-* Deadline: Check for Undergrad Thermal Engineering Intern openings by December 31st.
-* Important decision: Update job preferences at any time or opt out from new job alerts.
-[EmailSummarizer] Summarizing Email:
-Subject: Learning Spotlight: Smarter Workflows with AI Body: Header: Practical AI for Your Workday Whether you're writing, analyzing, planning, or collaborating, AI can help you do it more efficiently. These expert-led courses will show you how to use AI for better workflows, smarter decisions, and more impactful results. All the best! Shea Hanson, Head of Learning Content Strategy, LinkedIn Learning ---------------- Everyday AI: 15 Practical Skills to Build Confidence With AI Across 15 challenges, you will complete hands-on mini projects that help you write better prompts, organize your day, brainstorm creative ideas, turn voice notes into polished text, and automate tasks you repeat every week. You will also learn how to design simple AI systems that prepare you to build your first no-code AI agent. By the end of the course, you will have a collection of practical AI workflows and a ready-to-use blueprint you can bring into a no-code agent builder. Start small, learn by doing, and walk away confident in your ability to use and build with AI. Save: ---------------- AI Prompts for Deep Research: Real‑World Use Cases Discover how to turn AI into a powerful research assistant that thinks deeper, synthesizes faster, and delivers valuable insights you can act on. In this focused, practical course, instructor Dave Birss demonstrates how to craft high-impact prompts to conduct competitor analysis, explore market trends, uncover niche opportunities, and support strategic decision-making. Dave shows how to structure and refine your queries to extract richer, more relevant information—without wasting time on generic results. He also explores real-world use cases, shares adaptable prompt templates, and reviews techniques for validating AI output, applying research frameworks, and generating clear, shareable findings. Whether you’re working in strategy, marketing, product development, or consulting, this course can equip you with the skills to unlock AI’s research capabilities and elevate the quality of your thinking and analysis. This course was created by Dave Birss. We are pleased to host this training in our library. Save: ---------------- Using Generative AI Ethically at Work While many people have found the benefits of using generative AI at work, it's important to understand how to navigate the ethical decisions and issues that can come with using these powerful tools. In this course, the founder of Ethically Aligned AI, Katrina Ingram, shares strategies anyone can use, regardless of your role, to make more conscious, ethical decisions when using generative AI. Katrina covers some of the important legal considerations, how to recognize ethical choices, and how to make more ethical decisions as an employee. You’ll discover ways to use these tools in specific cases, while staying mindful of issues regarding copyright, privacy, cybersecurity risks, and AI etiquette. By the end of this course, you’ll also be prepared to avoid common generative AI missteps and mitigate risks for you and your organization. Save: ---------------- AI Productivity with MCP: How to Leverage MCP Servers with Claude Model Context Protocol (MCP) makes it easier than ever for developers to build secure, two-way connections between external apps and AI-powered tools. In this course, AI consultant Harshit Tyagi teaches you how to harness MCP servers to supercharge your productivity workflows with AI assistants like ChatGPT and Claude. Learn how to automate tedious tasks by connecting AI to your existing tools—from transforming email chaos into business intelligence to converting meeting transcripts into actionable project items. With hands-on examples, you'll get a chance to master techniques for instant data analysis in spreadsheets, automated research reporting, and cross-platform workflow automation. By the end of this course, you'll be equipped with the skills you need to eliminate manual busy work and focus on high-value activities that drive long-term results. Save: ---------------- Build Your AI-Powered Project Workflow with ChatGPT (No Code Required) Transform your project management approach by integrating AI technologies like ChatGPT to speed up planning, tighten decisions, manage your projects better, and stay competitive in today’s career landscape. In this course, instructor Andrew Stellman guides you through the essentials of automating project documentation, refining stakeholder communications, and managing risks with AI support. Along the way, learn how to use AI to build a comprehensive project charter, manage scope effectively, create a detailed risk register, and draft compelling stakeholder communications—all using AI tools. Gain insights into agile methodologies, discover how to adapt your project strategies to accommodate changes, and develop confidence with AI in real-world project workflows. Whether you're studying for the PMP certification or looking to innovate your current workflow, this course equips you with the tools and skills you need to streamline your work quickly and effectively. Save: ---------------- Agentic AI Planning and Reasoning Design Patterns There are foundational design techniques commonly used to build agentic AI solutions with basic planning and reasoning capabilities. This course goes beyond those techniques to explore a range of intermediate and advanced design approaches focused on specialized agent architectures that can be designed to carry out diverse forms of runtime planning and reasoning logic, as well as self-correction logic and adaptive learning capabilities that do not rely on model training. Join LinkedIn Top Voice and best-selling author Thomas Erl as he covers a set of design patterns that reveal sophisticated and powerful ways in which agentic AI solutions can be tailored to perform different types of planning and reasoning logic based on different business requirements and performance constraints.This course was created by Thomas Erl. We are pleased to host this training in our library. Save: ---------------- Your Top AI Questions Answered: AI Literacy for Everyone Explore the dynamic landscape of artificial intelligence and gain a strong understanding of both traditional and generative AI. Join instructor and generative AI expert Dr. Marily Nika as she offers an overview of the history of AI—from its conceptual inception to its current state. Discover the differences between traditional AI and generative AI, before diving into constructing effective prompts to enhance the usefulness of AI responses in various contexts. Learn about key technologies including transformer architecture, large language models (LLMs), and real-world applications like chatbots, translators, and agents. Along the way, Marily covers the importance of data quality, expert human contribution, and the back-end technology, such as GPUs, all of which are essential for training AI systems. This course is an ideal fit for tech enthusiasts, data scientists, professionals in tech-driven fields, and anyone looking to leverage AI for personal or professional growth. Save: ---------------- Prompting with Agentic Techniques Discover how prompting is evolving from single-task requests to agent-driven collaboration. You’ll learn to use integrated tools for research, planning, and automation through deep searches, custom projects, and browser-based agents that work alongside you. Save: ---------------- Hands-On Data Analysis with ChatGPT-5 Working with data can be time-consuming and complex, but AI can help. This course shows you how to use ChatGPT-5 as a hands-on partner in data analysis. You’ll learn how to load and explore datasets, clean messy data, uncover patterns, and generate visualizations using the Advanced Data Analysis feature. ChatGPT-5 can also explain results in plain language, helping you communicate insights clearly. Whether you’re an analyst or a professional who works with data, this course helps you combine your expertise with AI to boost productivity and uncover deeper insights. Save: ---------------- Learning Glean AI: From Data Insights to AI Agents Learn how to put Glean, the widely used AI work assistant, to work for your organization. In this hands-on, prompt-based course, instructor Sudha Jamthe shows you how to use natural language prompts to access, summarize, and compare documents, as well as chat with files in real time. Sudha also explores how to build agents to automate data-driven tasks using Microsoft Office files, Google Docs and Sheets, Slack messages, OneDrive files, and more. By the end of this course, you'll be ready to apply Glean to boost productivity and automate tasks in your corporate environment. Save: ---------------------------------------- This email was intended for Adithya Palle (Incoming @ D. E. Shaw Research | CS + Physics @ Northeastern | Prev SpaceX, Meta) Learn why we included this: You are receiving LinkedIn notification emails. Unsubscribe: Help: © 2025 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA 94085. LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.
-[EmailSummarizer] Single Email Summary: Here are three bullets summarizing the email:
-
-* The subject is "Learning Spotlight: Smarter Workflows with AI" and includes expert-led courses on using AI for better workflows, smarter decisions, and impactful results.
-* The courses cover topics like practical AI skills (15 challenges), ethical decision-making in generative AI use, productivity with MCP servers, building AI-powered projects, and agentic AI planning and reasoning.
-* Action items include learning the best practices to integrate AI technologies into project management, automating tasks using ChatGPT-5, and applying Glean as an AI work assistant.
-[EmailSummarizer] Summarizing Email:
-Subject: Use Your Leftover FSA for Fitness! 🏋🏻 Body: Find Results Your Way for $1 Down 🏋️‍♀️ 96 Your FSA dollars may cover fitness.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Plus, your first month’s dues FREE! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your FSA dollars may cover fitness. | View in web browser Turn unused HSA/FSA dollars into fitness The December 31 deadline is coming fast, and an average of $422 HSA/FSA dollars go unused every year. You may be able to use your remaining balance through Truemed on membership dues or Personal Training and invest in a healthier start to the new year. Use it before it’s gone. GET STARTED Live Healthy Everywhere with our 24GO®App See TrueMed website for required fees, eligibility requirements and complete details.Texas Health Studio #080501. Apple is a trademark of Apple, Inc., registered in the U.S. and other countries. App Store is a service mark of Apple, Inc. Google Play is a trademark of Google, Inc.This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here are three bullets summarizing the email:
-
-• The FSA (Health Savings Account) deadline is December 31, and unused HSA/FSA dollars may be used for fitness expenses.
-• You can use your remaining FSA balance to invest in fitness through a 24GO App or Personal Training services.
-• Don't miss out on deals - take action by using your FSA dollars before the deadline.
-[EmailSummarizer] Summarizing Email:
-Subject: Feel Stronger Every Time with HIIT24™ Body: Power Your Holidays With 30% Off Creatine 💪 96 Your new favorite workout is waiting.͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­͏‌ ­ Our Black Friday sale is on! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Your new favorite workout is waiting. | View in web browser Sweat with purpose.Train with confidence. Get it done and have fun with HIIT24™. Our signature twist on high intensity interval training is designed to help you maximize results in minimal time no matter where you're starting. Expect heart pumping intervals, high energy coaching and a workout that leaves you feeling stronger every time. BOOK A CLASS RYSE™ Loaded Protein:Holiday Flavor, Serious Benefits RYSE™ Loaded Protein in Christmas Tree Cakes flavor delivers 25g of premium whey protein per serving, with whey isolate as the primary protein source, plus 1g of MCTs for added fuel and 1g of organic prebiotic fiber to support digestion. Enjoy this festive flavor for a limited time, now available at 24STORE®. FIND A CLUB Classes Personal Training My Account Live Healthy Everywhere with our 24GO®App Must be 18 years old or 12 with parent. Facilities, classes, amenities and club hours vary per location. Membership does not include group or individual training, specialized classes or special services that are subject to separate agreements with 24 Hour and may require payment of a fee.Member must enroll in the FitPerks™ loyalty program to redeem earned points and rewards. The 24GO® app is free to download and use. Message and data rates may apply. Access to select 24GO® content and functionality may require an additional fee. Please consult a physician before starting or changing a fitness program. See FitPerks™ Rules for more details. Texas Health Studio #080501. This email is sent to adithyapalle12@gmail.com. Add 24 Hour Fitness to your address book. Please do not reply to this message; it was sent from an unattended mailbox. Contact Us | Terms of Use | Privacy Policy | Unsubscribe© 2025 24 Hour Fitness USA, LLC, P.O. Box 2689, Carlsbad, CA 92018.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The company, 24 Hour Fitness, is offering a 30% off Creatine supplement for a limited time.
-* The discount applies to all locations and can be redeemed through the 24GO app or website.
-* The deal expires on December 31, so it's essential to take advantage of it before it's too late.
-[EmailSummarizer] Summarizing Email:
-Subject: Re: [PLEASE UPDATE] - State and Local Tax Form Body: No Body
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Review and update State and Local Tax Form Body according to legal requirements.
-• Deadline for updating form is [insert date].
-• Key decisions: no changes, deadline for submission still applies.
-[TestEmailSummarizer] Email Summary:
-No_RELEVANT_EMAILS
-{
-    "summary": "There are no relevant emails.",
-    "subject": "The subject of the email for easy identification"
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Review and respond to Oracle jobs update",
-            "description": "Review Undergrad Thermal Engineering Intern opportunities and apply"
-        },
-        {
-            "title": "Check for Undergrad Thermal Engineering Intern openings by December 31st",
-            "description": "Deadline: Check for Undergrad Thermal Engineering Intern openings by December 31st"
-        }
-    ]
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Update job preferences at any time or opt out from new job alerts",
-            "description": "Important decision: Update job preferences at any time or opt out from new job alerts"
-        }
-    ]
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Learn best practices to integrate AI technologies into project management",
-            "description": "Action items include learning the best practices to integrate AI technologies into project management, automating tasks using ChatGPT-5"
-        },
-        {
-            "title": "Apply Glean as an AI work assistant",
-            "description": "Action items include applying Glean as an AI work assistant"
-        }
-    ]
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Use your FSA balance to invest in fitness expenses through a 24GO App or Personal Training services",
-            "description": "Don't miss out on deals - take action by using your FSA dollars before the deadline"
-        }
-    ]
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Review and update State and Local Tax Form Body according to legal requirements",
-            "description": ""
-        },
-        {
-            "title": "Deadline for updating form is [insert date]",
-            "description": ""
-        }
-    ]
-}
-
-NO_RELEVANT_EMAILS
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification",
-    "action_items": [
-        {
-            "title": "Check for available openings in State and Local Tax Form Body",
-            "description": ""
-        },
-        {
-            "title": "Key decisions: no changes, deadline for submission still applies",
-            "description": ""
-        }
-    ]
-}
-[EmailSummarizer] Summarizing Email:
-Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* A lunch meeting is scheduled for tomorrow near the office.
-* Key action items require your input, especially from legal, financial, and work-related emails.
-* The deadline for responding to important emails is [insert date], as it may impact deals or savings.
-[EmailSummarizer] Summarizing Email:
-Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Rescheduled meeting: The meeting will now take place today.
-* Key action items required:
-  • Review and update legal documents to ensure compliance with company policies
-  • Respond to all outstanding financial emails within the next 24 hours
-  • Stay informed about key decisions and updates related to our projects.
-[EmailSummarizer] Summarizing Email:
-Subject: Coffee? Body: Want to grab coffee sometime this week?
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Respond to a meeting invitation by Monday, with action item: schedule a follow-up call
-* Review and respond to a financial report due by Friday, with deadline: today if you can
-* Discuss potential partnerships on March 15th with key decision: sign a non-disclosure agreement
-[EmailSummarizer] Summarizing Email:
-Subject: Coupon Inside Body: Use this coupon on your next purchase.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The coupon is valid for "next purchase", implying a deadline to use it.
-* Action items from you include: responding within 7 days, reviewing and updating account information before the deadline.
-* Key decisions made are: checking balance on time, understanding eligibility for rewards.
-[EmailSummarizer] Summarizing Email:
-Subject: Design Feedback Body: Sharing feedback on the latest designs.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The design team needs your feedback to move forward with implementation, and action items include reviewing and responding to all emails within the next week.
-* Key decisions are being made on behalf of our clients, and you should be aware that they will be prioritizing certain designs over others.
-* A deadline has been set for submitting your final design review: by the end of the day this Friday.
+Subject: Invoice for April Body: Your April invoice is now available.
 [EmailSummarizer] Summarizing Email:
 Subject: Schedule Change Body: Office hours will change next week.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Please review and update your office hours to reflect changes.
-* Ensure all legal, financial, or work-related emails are sent via approved channels due to confidentiality concerns.
-* Review deadlines for pending deals and consider adjusting them if necessary to maximize savings.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
 [EmailSummarizer] Summarizing Email:
 Subject: Bank Account Alert Body: A large withdrawal was detected.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• A large withdrawal was detected, requiring action from you.
-• The deadline for reviewing and approving the transaction is tomorrow morning.
-• Key decisions or updates will be communicated through this email notification system.
 [EmailSummarizer] Summarizing Email:
-Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
-[EmailSummarizer] Single Email Summary: Here's a summary of the email in 3 bullets:
-
-* Review and respond to emails regarding client calls, especially those related to legal, financial, or work-related matters
-* Key decisions and updates are mentioned, including deadlines or dates where action may be missed if not taken promptly
-* Deadline for reviewing and responding to these emails is tomorrow
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
 [EmailSummarizer] Summarizing Email:
 Subject: Movie Night? Body: Want to watch a movie this Friday?
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• The request is to organize movie night.
-• Action items required from you include sending reminders and organizing logistics, especially for legal and financial matters.
-• Deadlines mentioned are this Friday, which may impact deals or savings opportunities if missed.
 [EmailSummarizer] Summarizing Email:
-Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Action items required: Review and approve financial reports, respond to sensitive emails regarding legal matters.
-• Important deadlines: Miss any deals or save money by meeting specific dates for submitting documents and responding to queries within a certain timeframe.
-• Key decisions needed: Decide on the next course of action based on information provided in your email, with a deadline to complete before the end of the week.
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
 [EmailSummarizer] Summarizing Email:
-Subject: Password Reset Confirmation Body: Your password has been successfully reset.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• You must take action to verify your identity before proceeding with any further requests.
- 
-Note: This email does not mention deadlines or dates, and may not contain key decisions or updates. It seems to be more focused on verifying identity rather than making important business decisions.
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Token usage for summarizing email 'Account Locked': None
 [EmailSummarizer] Summarizing Email:
-Subject: Account Usage Report Body: Your monthly usage report is ready.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Review and respond to action items, including legal, financial, and work-related emails.
-* Pay attention to deadlines for receiving new leads or opportunities, as they may expire if not acted upon.
-* Review the key decisions and updates regarding your account usage, such as changes to pricing or terms.
-[EmailSummarizer] Summarizing Email:
-Subject: Shipping Confirmation Body: Your order has shipped.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Action items: Review and respond to a customer inquiry, confirm order details, and schedule a call with them.
-* Deadline: Complete payment within 24 hours or risk missing out on deals and saving money.
-* Key decision: Accept delivery of your package by [due date] without any issues or disputes.
-[EmailSummarizer] Summarizing Email:
-Subject: Congrats! Body: Congrats on the promotion!
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* The recipient, [Manager's Name], is congratulating them on their promotion.
-* Key action items include:
-  • Review and sign off on all relevant documents by end-of-day tomorrow
-  • Attend a meeting with HR on Monday to discuss details
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Token usage for summarizing email 'Lunch Tomorrow?': None
+[EmailSummarizer] Token usage for summarizing email 'Interview Schedule': None
 [EmailSummarizer] Summarizing Email:
 Subject: Design Feedback Body: Sharing feedback on the latest designs.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• The design team has reviewed the latest designs and provided feedback.
-* Key actions required from you: Review and respond to all emails within the next 7 days, including those with deadlines or financial implications.
-* Deadline: All responses are due by Friday at 5pm.
+[EmailSummarizer] Token usage for summarizing email 'Bank Account Alert': None
 [EmailSummarizer] Summarizing Email:
-Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-* Action items and deadlines for legal, financial, and work-related emails.
-* Missed deadline for saving money or losing deals.
-* Key decision to be made today regarding work commitments.
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Token usage for summarizing email 'Movie Night?': None
+[EmailSummarizer] Token usage for summarizing email 'System Maintenance Gravel': None
 [EmailSummarizer] Summarizing Email:
-Subject: Weekly Promotions Body: Check out this week's hottest deals.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Action items required, including legal, financial, and work-related tasks
-• Key deadlines for receiving promotions or significant savings
-• Review the body of the email to understand the "hottest deals" being offered
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Token usage for summarizing email 'Social Media Digest': None
+[EmailSummarizer] Token usage for summarizing email 'Happy Anniversary!': None
+[EmailSummarizer] Token usage for summarizing email 'Schedule Change': None
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Token usage for summarizing email 'Invoice for April': None
+[EmailSummarizer] Token usage for critic on email 'Lunch Tomorrow?': None
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Token usage for critic on email 'Social Media Digest': None
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Token usage for critic on email 'Movie Night?': None
 [EmailSummarizer] Summarizing Email:
 Subject: Catch Up Soon Body: Let’s catch up soon!
-[EmailSummarizer] Single Email Summary: Here's a summary of the email in 3 bullets:
-
-• The sender requests action items from you, specifically for legal and financial emails.
-• There are deadlines for responding to these emails, including missing deals or lost savings opportunities.
-• Key decisions made by the sender include a specific investment strategy and target date.
+[EmailSummarizer] Token usage for summarizing email 'Production Incident': None
 [EmailSummarizer] Summarizing Email:
-Subject: Travel Points Update Body: You earned new reward points.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Review and respond to all emails, especially those requiring legal, financial, or work-related action.
-• Check for deadlines or dates where missed opportunities may arise, such as expiring rewards points or limited-time deals.
-• Confirm key decisions or updates by contacting support if necessary.
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Token usage for critic on email 'Happy Anniversary!': None
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Token usage for summarizing email 'Design Feedback': None
+[EmailSummarizer] Token usage for summarizing email 'Meeting Request: Sprint Planning': None
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Token usage for summarizing email 'Jetblue flight credit expiring': None
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Token usage for summarizing email 'Weekend Sale': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6322596380573424 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3398232771395011 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5863499819082278 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6697688789043443 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8206710671033348 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.30447368427548 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2100960606424813 seconds...
+[EmailSummarizer] Token usage for critic on email 'Invoice for April': None
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Token usage for summarizing email 'Doctor Appointment Confirmation': None
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Token usage for summarizing email 'Catch Up Soon': None
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Token usage for summarizing email 'Gaming Newsletter': None
+[EmailSummarizer] Token usage for summarizing email 'Office Access Update': None
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.8828819482446715 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7343807219581444 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8726727679031958 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.5436813909381506 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.4880909309723167 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.614714781439166 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Token usage for critic on email 'Gaming Newsletter': None
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Token usage for summarizing email 'Weekend Sale': None
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Token usage for summarizing email 'Calendar Invite: Demo': None
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.197086323466287 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.2411203215704596 seconds...
+[EmailSummarizer] Token usage for critic on email 'Office Access Update': None
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.0221110319671496 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.560223790877798 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.421144248934164 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Dinner Plans': None
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.893111937743985 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Token usage for summarizing email 'Design Feedback': None
+[EmailSummarizer] Token usage for summarizing email 'Travel Deals Newsletter': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.324842304692226 seconds...
+[EmailSummarizer] Token usage for critic on email 'Calendar Invite: Demo': None
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Token usage for summarizing email 'Catch Up Soon': None
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.430665880530894 seconds...
+[EmailSummarizer] Token usage for critic on email 'Travel Deals Newsletter': None
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.683623256520377 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.266966735664557 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1086686726203663 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Token usage for summarizing email 'Flash Sale': None
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Token usage for critic on email 'Catch Up Soon': None
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.6341743144294094 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4121585096707543 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 15.265415660474314 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Token usage for summarizing email 'Account Usage Report': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8352213547607974 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Check This Out': None
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 14.013726199723347 seconds...
+[EmailSummarizer] Token usage for critic on email 'Account Usage Report': None
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Token usage for critic on email 'Check This Out': None
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Token usage for summarizing email 'Weekend Sale': None
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.1683758967484184 seconds...
+[EmailSummarizer] Token usage for summarizing email 'PagerDuty Alert': None
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 13.300325485020533 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.895126981086369 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0370853676516338 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Project Kickoff': None
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Token usage for critic on email 'Weekend Sale': None
 [EmailSummarizer] Summarizing Email:
 Subject: Your Receipt Body: Thanks for your purchase.
-[EmailSummarizer] Single Email Summary: Here is a summary of the email in 3 bullets:
-
-• Action items required from you, particularly for legal and financial matters.
-• Deadlines mentioned, such as meeting targets or saving money within the next quarter.
-• Key decisions and updates to be made on your part, including any changes to policy.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3382087460204262 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Dinner Plans': None
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.314145672062587 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Quarterly Review': None
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7456858434773448 seconds...
+[EmailSummarizer] Token usage for critic on email 'Dinner Plans': None
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Token usage for summarizing email 'Service Outage Notification': None
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.033567972630431 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.421361418737585 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2725684969692068 seconds...
+[EmailSummarizer] Token usage for summarizing email 'On-call Schedule': None
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 24.699182686274817 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Calendar Invite: 1:1': None
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Token usage for summarizing email 'Congrats!': None
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.082560790629068 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 29.509389057771124 seconds...
+[EmailSummarizer] Token usage for summarizing email 'HR Policy Update': None
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Token usage for summarizing email 'Offer Letter': None
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Token usage for critic on email 'On-call Schedule': None
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 16.23064547174726 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 12.466414737985888 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1995391354456908 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.996911453561285 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Token usage for summarizing email 'Travel Points Update': None
+[EmailSummarizer] Token usage for summarizing email 'Welcome to Our Mailing List': None
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.233995519719477 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Interview Feedback': None
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.044329746001307 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Follow-up on Proposal': None
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Token usage for critic on email 'Travel Points Update': None
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Token usage for critic on email 'Welcome to Our Mailing List': None
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Token usage for summarizing email 'Furniture Sale': None
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5605956997571155 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Security Alert': None
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.47448427767086 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Token usage for summarizing email 'Congrats!': None
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.229789297714119 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Token usage for summarizing email 'Your Receipt': None
+[EmailSummarizer] Token usage for summarizing email 'Subscription Renewal': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5177167568405057 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Team Standup Reminder': None
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Rate limit error encountered in attempt 5. Retrying in 49.77996888160352 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.319704244769401 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.436492641234173 seconds...
+[EmailSummarizer] Token usage for critic on email 'Your Receipt': None
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Token usage for critic on email 'Team Standup Reminder': None
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.4077151744672696 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.2185742557673263 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Token usage for summarizing email 'Daily News Digest': None
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7583466938036088 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Token usage for summarizing email 'Coffee?': None
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Token usage for summarizing email 'Meeting Rescheduled': None
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.8346401942538764 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Congrats!': None
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.9898615325600595 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.897827820892121 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.953365444033884 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Team Outing Photos': None
+[EmailSummarizer] Token usage for summarizing email 'Your Package Is Out for Delivery': None
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Token usage for summarizing email 'Expense Report Approved': None
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Token usage for critic on email 'Coffee?': None
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Token usage for critic on email 'Team Outing Photos': None
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Token usage for critic on email 'Congrats!': None
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.707387657825181 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.097733623936736 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Token usage for summarizing email 'New Feature Announcement': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0189098131279897 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6606765218490738 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 15.02365103396275 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Token usage for summarizing email 'Account Verification Required': None
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 9.942700342982501 seconds...
+[EmailSummarizer] Token usage for critic on email 'New Feature Announcement': None
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Token usage for summarizing email 'Quick Check-in': None
+[EmailSummarizer] Token usage for summarizing email 'Client Feedback': None
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3794069814146401 seconds...
+[EmailSummarizer] Token usage for critic on email 'Quick Check-in': None
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8066926212588075 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 13.67404544782632 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Token usage for summarizing email 'Password Reset Confirmation': None
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Token usage for summarizing email 'Project Deadline Update': None
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.24226223101271 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Token usage for summarizing email 'Weekly Promotions': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.748344160737067 seconds...
+[EmailSummarizer] Token usage for summarizing email 'Shipping Confirmation': None
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.448222652760097 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Token usage for summarizing email 'Client Call Tomorrow': None
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Token usage for critic on email 'Weekly Promotions': None
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 19.452721500487904 seconds...
+[EmailSummarizer] Token usage for summarizing email '[ACTION NEEDED] update your tax forms': None
+[EmailSummarizer] Token usage for critic on email 'Shipping Confirmation': None
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.275557644882583 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Token usage for summarizing email 'Reminder: Submit Timesheet': None
+[EmailSummarizer] Token usage for summarizing email 'Coupon Inside': None
+[EmailSummarizer] Token usage for summarizing email 'Furniture Sale': None
+[EmailSummarizer] Token usage for summarizing email 'Daily News Digest': None
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Token usage for summarizing email 'End of Month Sale': None
+[EmailSummarizer] Token usage for critic on email 'Coupon Inside': None
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 29.93702273398666 seconds...
+[EmailSummarizer] Token usage for critic on email 'Daily News Digest': None
+[EmailSummarizer] Token usage for summarizing email 'Design Feedback': None
+[EmailSummarizer] Token usage for critic on email 'End of Month Sale': None
+[EmailSummarizer] Token usage for critic on email 'Design Feedback': None
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Token usage for summarizing email 'Subscription Renewal': None
+[EmailSummarizer] Token usage for critic on email 'Subscription Renewal': None
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Token usage for summarizing email 'Furniture Sale': None
+[EmailSummarizer] Token usage for critic on email 'Furniture Sale': None
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7597825010226544 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7765844963913506 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1803575049775112 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9514367462104993 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1746514385942122 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5156298453378858 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3450099535957771 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8616712958863157 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.2569265324717973 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.3128822150580666 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.849249517115646 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.8158733307310118 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.059574300938229 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.1015498584774224 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.8139737064764416 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1889970033010324 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.04212474602201 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.755020441654326 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.115545931878173 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.101560550773202 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.2663083849941055 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.912644381126851 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.17180317244625 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.206316658961497 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.413793233127243 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3333100131979851 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.899733268358304 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.527143520910701 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 15.252646027051346 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.616596385345022 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 14.73897112995164 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 13.015893363844107 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 15.469717334537476 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 14.504512526327975 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.508890154878489 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2318216678652902 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4729348227522125 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.297830033852879 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 11.978019208714322 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9660376453236452 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.202340723480212 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 18.041624458433688 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 16.70178084391408 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 28.221300104685636 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6000873072059076 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7921134209477856 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.050306615711032 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 23.121750235239972 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.1810434002708377 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.7576311040590893 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 5. Retrying in 43.221239304191045 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8435835829059797 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0160612788318995 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.016162711533823 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6732695225416827 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5517217210584788 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1036585907969358 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0254789236618114 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9903899876751137 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.985219036579351 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.350421131795133 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.8215605673267103 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.275885582784108 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.2474217888090724 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0704789088185298 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0850808707296515 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.370397929178779 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.312818190638268 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.565630619035465 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.3315194832124835 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.719413579055466 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.7001187200307815 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 15.454038366758983 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.127309130627386 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8990003554418293 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5737738005024466 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.7439846503848475 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 9.13704202187696 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.044963909487668 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.3011135612945455 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 10.840704101375472 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0854829214144741 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.8909329110459767 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9675204800199595 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1411869690714211 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.74367664061063 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 30.359402720577897 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4841386712199618 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.3049288601504845 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2678096352410293 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.322112846828833 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0455023899914475 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2080634900098373 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.885857147039843 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.758796462886833 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.7056301090340473 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 30.909055049712347 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.628656392031023 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5725692462176333 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 13.025602016384818 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.9050138077454335 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1110735877732734 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.7550419667779682 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.156218598533273 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8585329787952432 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9938056870876366 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4021511454164552 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5282847081716753 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6510869460638995 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.921626676481193 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5274495899867258 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9832780464963662 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.9587566892935704 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.108153893355531 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.445430754239867 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.788202716766241 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.2964064813783565 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.669260340902864 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.727110694289518 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4565255767021432 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.580041349399348 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.5928842771446705 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.736471925344218 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.383895301073678 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.796823441672094 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9159593471975946 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.064598830342801 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9243644730326057 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0948978465853134 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.7385273590892414 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.378663269698642 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.0266031472871058 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 10.477648338265944 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 11.010778925923432 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.895665125507453 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.473414470661356 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6220108638671369 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2252348991368864 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.957676794711169 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8966694313572137 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9218562867010323 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0908815765119457 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4289002044950272 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.227940607163087 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5391699942288395 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.0876166651968475 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.2093838147777607 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.3359206540223476 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.969898233904458 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.7882278979739885 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5477773931260361 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.410589145576613 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.331604102563684 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2853347594597908 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.632003568033176 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.1867585953774675 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.749141646179233 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0341735479571885 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.067164020407516 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.673788574260595 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.5600369256685975 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.5007896263740594 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.800297441500091 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.261385170806088 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 10.718950479438046 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 9.220922278840476 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 14.384359473453326 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: Follow-up on Proposal Body: Following up on the proposal I sent last week.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Usage Report Body: Your monthly usage report is ready.
+[EmailSummarizer] Summarizing Email:
+Subject: Check This Out Body: Thought you might like this article.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Doctor Appointment Confirmation Body: Your appointment has been confirmed.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Coffee? Body: Want to grab coffee sometime this week?
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Production Incident Body: We are responding to a production incident.
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Rescheduled Body: Today’s meeting has been rescheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Project Deadline Update Body: The deadline has been moved to next Friday.
+[EmailSummarizer] Summarizing Email:
+Subject: Project Kickoff Body: Kickoff meeting scheduled for Wednesday.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Welcome to Our Mailing List Body: Thanks for signing up.
+[EmailSummarizer] Summarizing Email:
+Subject: Offer Letter Body: We’re excited to share your offer letter.
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: Coupon Inside Body: Use this coupon on your next purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Client Call Tomorrow Body: Reminder about the client call tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: System Maintenance Gravel Body: Scheduled maintenance tonight from 1–3am.
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.051098869030734 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.171119988001506 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6800323690952381 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.576710853421065 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2523940146578423 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8242932143090167 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4517367545173556 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Account Locked Body: Your account has been temporarily locked.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4729684779528505 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.4116244737781414 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: [ACTION NEEDED] update your tax forms Body: Hey, you need to update your IT-2104 by tonight!
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9968847303661672 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.281818755506846 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.3655550820831794 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.4936908197602037 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.112837808777029 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Office Access Update Body: Your badge access has been updated.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.79205819390386 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.8912921396889746 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6422890340588774 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 5.945363241397153 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 4.789842855681687 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.0427848926336827 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.060997597907869 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.865512463336577 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.87478662109334 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Deals Newsletter Body: Save big on your next vacation.
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6460982818163152 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 12.283608667087542 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Expense Report Approved Body: Your expense report has been approved.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.975096494219567 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 11.040909541030224 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.019200707605391 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 9.364744918421213 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.4609375110191056 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.1407830993822123 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.4871324008832025 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Travel Points Update Body: You earned new reward points.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8234142273875789 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.276820441056599 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.6805147149619075 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.4012349332981944 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 27.968639911785683 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 31.222057081353856 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 6.80884756183229 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.8951383379997848 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.2683808640841026 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.1017179674834843 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 10.3690848738514 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 2.8001721194799214 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.9655898849544515 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Rate limit error encountered in attempt 1. Retrying in 3.481522049592679 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 9.428598508411806 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 11.52395445808951 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.602638056444905 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 0. Retrying in 1.2241789468446782 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Rate limit error encountered in attempt 2. Retrying in 7.1659076626341385 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Dinner Plans Body: Are you free for dinner this weekend?
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Rate limit error encountered in attempt 4. Retrying in 26.299218265213668 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 12.786791353658781 seconds...
+[EmailSummarizer] Rate limit error encountered in attempt 3. Retrying in 14.910822009082015 seconds...
+[EmailSummarizer] Summarizing Email:
+Subject: Subscription Renewal Body: Your subscription will renew automatically.
+[EmailSummarizer] Summarizing Email:
+Subject: Happy Anniversary! Body: Wishing you a happy anniversary!
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: HR Policy Update Body: Please review the updated HR policies.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Receipt Body: Thanks for your purchase.
+[EmailSummarizer] Summarizing Email:
+Subject: Service Outage Notification Body: We are investigating a service outage.
+[EmailSummarizer] Summarizing Email:
+Subject: Furniture Sale Body: 10% off on all furniture items until the end of the month.
+[EmailSummarizer] Summarizing Email:
+Subject: Account Verification Required Body: Please verify your account information.
+[EmailSummarizer] Summarizing Email:
+Subject: Bank Account Alert Body: A large withdrawal was detected.
+[EmailSummarizer] Summarizing Email:
+Subject: Gaming Newsletter Body: This week in gaming news.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Schedule Body: Your interview is scheduled for Tuesday at 11am.
+[EmailSummarizer] Summarizing Email:
+Subject: Schedule Change Body: Office hours will change next week.
+[EmailSummarizer] Summarizing Email:
+Subject: Shipping Confirmation Body: Your order has shipped.
+[EmailSummarizer] Summarizing Email:
+Subject: Catch Up Soon Body: Let’s catch up soon!
+[EmailSummarizer] Summarizing Email:
+Subject: Weekly Promotions Body: Check out this week's hottest deals.
+[EmailSummarizer] Summarizing Email:
+Subject: Weekend Sale Body: Big savings this weekend only.
+[EmailSummarizer] Summarizing Email:
+Subject: Invoice for April Body: Your April invoice is now available.
+[EmailSummarizer] Summarizing Email:
+Subject: Password Reset Confirmation Body: Your password has been successfully reset.
+[EmailSummarizer] Summarizing Email:
+Subject: New Feature Announcement Body: We’ve launched a new feature.
+[EmailSummarizer] Summarizing Email:
+Subject: Social Media Digest Body: Here’s what you missed this week.
+[EmailSummarizer] Summarizing Email:
+Subject: End of Month Sale Body: Last chance to save!
+[EmailSummarizer] Summarizing Email:
+Subject: Daily News Digest Body: Top headlines for today.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: Demo Body: You’ve been invited to a product demo.
+[EmailSummarizer] Summarizing Email:
+Subject: Interview Feedback Body: Sharing feedback from your interview.
+[EmailSummarizer] Summarizing Email:
+Subject: Flash Sale Body: Flash sale ends tonight!
+[EmailSummarizer] Summarizing Email:
+Subject: Movie Night? Body: Want to watch a movie this Friday?
+[EmailSummarizer] Summarizing Email:
+Subject: Meeting Request: Sprint Planning Body: Can we schedule sprint planning for Monday afternoon?
+[EmailSummarizer] Summarizing Email:
+Subject: Jetblue flight credit expiring Body: last day to redeem 1000$ of flight credit!
+[EmailSummarizer] Summarizing Email:
+Subject: Team Outing Photos Body: Here are the photos from the team outing.
+[EmailSummarizer] Summarizing Email:
+Subject: Calendar Invite: 1:1 Body: You have been invited to a 1:1 meeting tomorrow.
+[EmailSummarizer] Summarizing Email:
+Subject: Your Package Is Out for Delivery Body: Your package will arrive today by 8pm.
+[EmailSummarizer] Summarizing Email:
+Subject: Congrats! Body: Congrats on the promotion!
+[EmailSummarizer] Summarizing Email:
+Subject: Client Feedback Body: The client shared feedback on the latest deliverable.
+[EmailSummarizer] Summarizing Email:
+Subject: Quick Check-in Body: Hey, just wanted to check in and see how things are going.
+[EmailSummarizer] Summarizing Email:
+Subject: On-call Schedule Body: Next week’s on-call schedule is attached.
+[EmailSummarizer] Summarizing Email:
+Subject: Lunch Tomorrow? Body: Want to grab lunch tomorrow near the office?
+[EmailSummarizer] Summarizing Email:
+Subject: Team Standup Reminder Body: Reminder that our daily standup is at 9:30am.
+[EmailSummarizer] Summarizing Email:
+Subject: PagerDuty Alert Body: Critical alert triggered for service latency.
+[EmailSummarizer] Summarizing Email:
+Subject: Security Alert Body: A new login was detected from an unknown device.
+[EmailSummarizer] Summarizing Email:
+Subject: Design Feedback Body: Sharing feedback on the latest designs.
+[EmailSummarizer] Summarizing Email:
+Subject: Quarterly Review Body: Your quarterly performance review is scheduled.
+[EmailSummarizer] Summarizing Email:
+Subject: Reminder: Submit Timesheet Body: Please submit your timesheet by EOD.

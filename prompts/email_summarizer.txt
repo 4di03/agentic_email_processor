@@ -7,11 +7,8 @@ Please summarize only the relevant emails. I don't care about:
 - Social media notifications
 - articles or blog posts
 
-For EACH relevant email, provide the following STRUCTURED output:
-{
-    "summary": "A brief summary of the email content, and any action items if present (1-2 sentences)",
-    "subject": "The subject of the email for easy identification, should be an exact match with the subject inputted"
-}
+For EACH relevant email, provide the the subject, summary, and your own label for is_important (boolean), after making your judgmenet based on the following criteria:
+
 
 Remember to include such a structured json object if the email is one of the following:
 - Emails from colleagues or clients or work-related

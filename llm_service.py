@@ -1,8 +1,13 @@
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
-from typing import Generator
+from typing import Generator, Any
 import os
+from langchain_core.language_models.chat_models import BaseChatModel, BaseMessage, CallbackManagerForLLMRun, ChatResult, ChatResult
+
 LOCAL_LLAMA_ENDPOINT = "http://localhost:11434"
+
+
+
 
 
 class LLMService(ABC):
@@ -41,3 +46,33 @@ class LocalLlamaService(LLMService):
                 data = json.loads(line)
                 yield data["response"]
 
+
+class LangchainAdapter(BaseChatModel):
+    """Wrapper to use Langchain LLMs with our LLMService interface."""
+    llm : LLMService
+
+    def _llm_type(self) -> str:
+        return "custom adapter wrapping LLMService"
+    
+    def _generate(
+        self,
+        messages: list[BaseMessage],
+        stop: list[str] | None = None,
+        run_manager: CallbackManagerForLLMRun | None = None,
+        **kwargs: Any,
+    ) -> ChatResult:
+        prompt = "\n".join([msg.content for msg in messages])
+        response_text_stream = self.llm.generate_text_stream(prompt)
+        response_text = []
+
+        for chunk in response_text_stream:
+            response_text.append(chunk)
+            
+            # callback for new token
+            if run_manager:
+                run_manager.on_llm_new_token(chunk)
+
+            if stop and any(s in chunk for s in stop):
+                break # stop generation if any stop token is found
+
+        return ChatResult(generations=[[{"text": ''.join(response_text)}]])

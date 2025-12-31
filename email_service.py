@@ -11,8 +11,8 @@ TMP_CREDS_SAVE_PATH = "secrets/gmail_token.json"
 
 @dataclass
 class Email:
-    subject : str
-    body : str
+    subject : str # Subject of the email. Exactly as in the email.
+    body : str # A brief summary of the email body text. Containing key points and action items.
 
     def __str__(self):
         return f"Subject: {self.subject}\nBody: {self.body}"
