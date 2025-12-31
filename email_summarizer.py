@@ -13,8 +13,34 @@ from langchain.agents import create_agent
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents.structured_output import ToolStrategy
 from langchain_core.messages import SystemMessage
+from langchain_core.callbacks import BaseCallbackHandler
 
 MAX_CHARS_PER_EMAIL = 1000
+
+
+DEBUG = False
+SUMMARIZER_SYSTEM_PROMPT = open("prompts/single_email_summarizer_system_prompt.txt").read()
+CRITIC_SYSTEM_PROMPT = open("prompts/critic_prompt.txt").read()
+logger = Logger(context = "EmailSummarizer", debug=DEBUG)
+
+
+class PromptLogger(BaseCallbackHandler):
+    def on_chat_model_start(self, serialized, messages, **kwargs):
+        logger.log("\n--- CHAT MODEL CALL START ---")
+        # messages is List[List[BaseMessage]] (batched)
+        for batch_i, batch in enumerate(messages):
+            logger.log(f"[batch {batch_i}]")
+            for m in batch:
+                # m.type is like "system" / "human" / "ai"
+                logger.log(f"{m.type}: {m.content}")
+        logger.log("--- END CHAT MESSAGES ---\n")
+
+    # Keep this too (sometimes providers still emit string prompts)
+    def on_llm_start(self, serialized, prompts, **kwargs):
+        logger.log("\n--- LLM (string prompt) START ---")
+        for p in prompts:
+            logger.log(p)
+        logger.log("--- END LLM PROMPT ---\n")
 
 def strip_html_and_urls(text: str) -> str:
     """
@@ -46,15 +72,6 @@ def strip_html_and_urls(text: str) -> str:
     return text
 
 
-DEBUG = False
-SUMMARIZER_PROMPT_PATH = "prompts/email_summarizer.txt"
-SUMMARIZER_SYSTEM_PROMPT = "prompts/single_email_summarizer_system_prompt.txt"
-CRITIC_SYSTEM_PROMPT = "prompts/critic_prompt.txt"
-logger = Logger(context = "EmailSummarizer", debug=DEBUG)
-
-
-
-
 @dataclass
 class EmailSummaryResponseFormat:
     """ Summary for a single email.  """
@@ -75,6 +92,12 @@ CACHED_EMAIL_SUMMARIZER_SYSTEM_MESSAGE = SystemMessage(
         }
     ]
 )
+
+def init_email_summarizer(model : BaseChatModel, with_critic: bool = False) -> CompiledStateGraph:
+    agent = _init_email_summarizer_agent(model)
+    critic_agent = _init_critic_agent(model) if with_critic else None
+    email_service = EmailService.create_email_service()
+    return EmailSummarizer(agent, email_service, critic_agent= critic_agent)
 
 
 def _init_email_summarizer_agent(model : BaseChatModel) -> CompiledStateGraph:
@@ -116,6 +139,9 @@ async def invoke_with_exp_backoff_retries(call):
             await asyncio.sleep(wait_time)
     raise Exception("Max retries exceeded due to rate limiting.")
 
+INVOKE_CONFIG=  {"configurable": {"max_tokens": 100}, "callbacks": [PromptLogger()]}
+
+
 class EmailSummarizer:
 
     def __init__(self,  email_summarizer_agent : CompiledStateGraph,  email_service: EmailService, critic_agent : CompiledStateGraph | None = None):
@@ -129,8 +155,10 @@ class EmailSummarizer:
 
         resp = await self.email_summarizer_agent.ainvoke(
             {"messages": [{"role": "user", "content": email_str}]},
-            config={"configurable": {"max_tokens": 100}},
+            config=INVOKE_CONFIG,
         )
+        # log message history for debugging
+        logger.log("LLM Message History:\n" + str(resp))
 
         # usage = resp.get("usage") or resp.get("llm_output", {}).get("usage")
 
@@ -143,7 +171,7 @@ class EmailSummarizer:
         if not structured.is_important and self.critic_agent:
             critic_resp = await self.critic_agent.ainvoke(
                 {"messages": [{"role": "user", "content": str(structured)}]},
-                config={"configurable": {"max_tokens": 100}},
+                config=INVOKE_CONFIG,
             )
             # usage = resp.get("usage") or resp.get("llm_output", {}).get("usage")
             # logger.log(f"Token usage for critic on email '{email.subject}': {usage}")

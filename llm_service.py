@@ -76,3 +76,27 @@ class LangchainAdapter(BaseChatModel):
                 break # stop generation if any stop token is found
 
         return ChatResult(generations=[[{"text": ''.join(response_text)}]])
+    
+    # # async version
+    # async def _agenerate(
+    #     self,
+    #     messages: list[BaseMessage],
+    #     stop: list[str] | None = None,
+    #     run_manager: CallbackManagerForLLMRun | None = None,
+    #     **kwargs: Any,
+    # ) -> ChatResult:
+    #     # For simplicity, we call the synchronous version here.
+    #     return self._generate(messages, stop, run_manager, **kwargs)
+    
+    #     def bind_tools(
+    #     self,
+    #     tools: Sequence[
+    #         typing.Dict[str, Any] | type | Callable | BaseTool  # noqa: UP006
+    #     ],
+    #     *,
+    #     tool_choice: str | None = None,
+    #     **kwargs: Any,
+    # ) -> Runnable[LanguageModelInput, AIMessage]:
+    #     return create_tool_calling_runnable(
+    #         self, tools, tool_choice=tool_choice, **kwargs
+    #     )

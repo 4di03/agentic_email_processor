@@ -1,12 +1,12 @@
 import asyncio
-from email_summarizer import EmailSummarizer, EmailSummaryResponseFormat, _init_email_summarizer_agent, _init_critic_agent
+from email_summarizer import EmailSummarizer, EmailSummaryResponseFormat, init_email_summarizer
 from llm_service import LocalLlamaService
 from email_service import EmailService, Email
 import json
 import random
 from test_email_summarizer import claude_sonnet, haiku, llama
 import argparse
-EVAL_SET_SIZE = 100
+EVAL_SET_SIZE = 10
 EVAL_SET_PATH = "evaluation_dataset.json"
 
 MODELS = {
@@ -39,20 +39,27 @@ if __name__ == "__main__":
         default="haiku",
         help="The LLM model to use for evaluation",
     )
+    parser.add_argument(
+        "--eval_set_size",
+        type=int,
+        default=EVAL_SET_SIZE,
+        help="Number of emails to evaluate on",
+    )
+
     args = parser.parse_args()
 
     model = MODELS[args.model]
     print("Using model:", args.model)
 
 
-    emails_by_subject= from_json_list(EVAL_SET_PATH,n = EVAL_SET_SIZE)
+    emails_by_subject= from_json_list(EVAL_SET_PATH,n = args.eval_set_size)
+
+
     eval_emails = [eval_email for eval_email, _ in emails_by_subject.values()]
 
-    agent = _init_email_summarizer_agent(model)
-    critic_agent = _init_critic_agent(model)
-    llm_service = LocalLlamaService()
-    email_service = EmailService.create_email_service()
-    email_summarizer = EmailSummarizer(agent, email_service, critic_agent= critic_agent)
+    print("Evaluating on", len(eval_emails), "emails")
+
+    email_summarizer = init_email_summarizer(model, with_critic=True)
 
 
     summaries = asyncio.run(email_summarizer._summarize_emails_async(eval_emails, concurrency=10))
