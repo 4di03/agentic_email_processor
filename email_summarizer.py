@@ -15,6 +15,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents.structured_output import ToolStrategy
 from langchain_core.messages import SystemMessage
 from langchain_core.callbacks import BaseCallbackHandler
+from datetime import datetime, timedelta, timezone
 
 MAX_CHARS_PER_EMAIL = 1000
 
@@ -25,23 +26,6 @@ CRITIC_SYSTEM_PROMPT = open("prompts/critic_prompt.txt").read()
 logger = Logger(context = "EmailSummarizer", debug=DEBUG)
 
 
-class PromptLogger(BaseCallbackHandler):
-    def on_chat_model_start(self, serialized, messages, **kwargs):
-        logger.log("\n--- CHAT MODEL CALL START ---")
-        # messages is List[List[BaseMessage]] (batched)
-        for batch_i, batch in enumerate(messages):
-            logger.log(f"[batch {batch_i}]")
-            for m in batch:
-                # m.type is like "system" / "human" / "ai"
-                logger.log(f"{m.type}: {m.content}")
-        logger.log("--- END CHAT MESSAGES ---\n")
-
-    # Keep this too (sometimes providers still emit string prompts)
-    def on_llm_start(self, serialized, prompts, **kwargs):
-        logger.log("\n--- LLM (string prompt) START ---")
-        for p in prompts:
-            logger.log(p)
-        logger.log("--- END LLM PROMPT ---\n")
 
 def strip_html_and_urls(text: str) -> str:
     """
@@ -153,7 +137,7 @@ async def invoke_with_exp_backoff_retries(call):
             await asyncio.sleep(wait_time)
     raise Exception("Max retries exceeded due to rate limiting.")
 
-INVOKE_CONFIG=  {"configurable": {"max_tokens": 100}, "callbacks": [PromptLogger()]}
+INVOKE_CONFIG=  {"configurable": {"max_tokens": 100}}
 
 
 class EmailSummarizer:
@@ -194,6 +178,7 @@ class EmailSummarizer:
         return structured
     
     async def _summarize_emails_async(self, emails: list[Email], concurrency: int = 10):
+        print(f"Summarizing {len(emails)} emails with concurrency {concurrency}...")
         sem = asyncio.Semaphore(concurrency) # limits how many tasks can actively make llm calls at once
 
         async def worker(idx: int, email: Email):
@@ -210,7 +195,7 @@ class EmailSummarizer:
             done += 1
             if done % 5 == 0 or done == len(emails):
                 print(f"Progress: {done/len(emails)*100:.2f}%")
-
+        print("Summarization complete.")
         return summaries
 
     def _summarize_emails(self, emails : list[Email]) -> list[EmailSummaryResponseFormat]:
@@ -220,3 +205,8 @@ class EmailSummarizer:
         emails = list(self.email_service.get_last_n_emails(n=n))
         
         return self._summarize_emails(emails)
+    
+    async def summarize_recent_emails(self, lookback_hours = 24):
+        # get emails from last lookback_hours
+        cutoff_time = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
+        return await self._summarize_emails_async(list(self.email_service.get_recent_emails(cutoff_time=cutoff_time)))

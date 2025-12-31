@@ -6,7 +6,7 @@ from dataclasses import  dataclass
 from typing import Generator
 import os,json
 from google_creds import get_google_client_creds
-
+import datetime
 
 @dataclass
 class Email:
@@ -69,6 +69,36 @@ class EmailService:
                 body=self._get_body(msg_detail),
             )
 
+
+    def get_recent_emails(self, cutoff_time: datetime) -> Generator[Email, None, None]:
+        # generator for emails since cutoff_time
+        service = build("gmail", "v1", credentials=self.creds)
+        after_ts = int(cutoff_time.timestamp())
+
+        results = (
+            service.users()
+            .messages()
+            .list(
+                userId="me",
+                q=f"after:{after_ts}",
+                maxResults=1000, # TODO: implement pagination to handle more than this amount if even possible
+            )
+            .execute()
+        )
+
+        messages = results.get("messages", [])
+        for msg in messages:
+            msg_detail = (  # TODO: implement batching of these calls to reduce network roundtrips
+                service.users()
+                .messages()
+                .get(userId="me", id=msg["id"])
+                .execute()
+            )
+
+            yield Email(
+                subject=self._get_subject(msg_detail),
+                body=self._get_body(msg_detail),
+            )
 
     @staticmethod   
     def create_email_service():

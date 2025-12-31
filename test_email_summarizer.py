@@ -1,4 +1,4 @@
-from email_summarizer import EmailSummarizer,init_email_summarizer, PromptLogger
+from email_summarizer import EmailSummarizer,init_email_summarizer
 from llm_service import LocalLlamaService, LangchainAdapter
 from email_service import EmailService, Email
 from logger import Logger
