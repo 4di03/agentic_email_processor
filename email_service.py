@@ -12,11 +12,13 @@ import datetime
 class Email:
     subject : str # Subject of the email. Exactly as in the email.
     body : str # A brief summary of the email body text. Containing key points and action items.
+    message_id : str | None =  None # Unique identifier for the email message.
 
     def __str__(self):
         return f"Subject: {self.subject}\nBody: {self.body}"
     
-
+from logger import logged_class
+@logged_class
 class EmailService:
     """For reading emails from a personal Gmail account using Gmail API."""
 
@@ -66,6 +68,7 @@ class EmailService:
             )
             yield Email(
                 subject=self._get_subject(msg_detail),
+                message_id= msg_detail["id"],
                 body=self._get_body(msg_detail),
             )
 
@@ -96,6 +99,7 @@ class EmailService:
             )
 
             yield Email(
+                message_id= msg_detail["id"],
                 subject=self._get_subject(msg_detail),
                 body=self._get_body(msg_detail),
             )

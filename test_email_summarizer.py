@@ -9,13 +9,13 @@ llama = LangchainAdapter(llm = LocalLlamaService())
 claude_sonnet = init_chat_model(
         "claude-sonnet-4-5-20250929",
         temperature=0,
-        timeout=10,
+        timeout=30,
         max_tokens=1000,
     )
 haiku = init_chat_model(
     "claude-3-5-haiku-20241022",  # cheaper Claude Haiku
+    timeout=30,
     temperature=0,
-    timeout=10,
     max_tokens=1000
 )
 logger = Logger(context = "TestEmailSummarizer", debug=True)

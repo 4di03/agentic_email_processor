@@ -19,7 +19,8 @@ class CalendarEvent:
 
 CALENDAR_ID = "6f5d5b2a13964e30d423ef619b4bdb33d81b9abd9cf1d523b4d723e317b187a4@group.calendar.google.com"
 
-
+from logger import logged_class
+@logged_class
 class CalendarService:
     """Uses Google Calendar API (events) and Google Tasks API (tasks)."""
 

@@ -22,7 +22,8 @@ class LLMService(ABC):
 
 LLAMA_3_1 = 'llama3.1:8b'
 LLAMA_3_2_1B = 'llama3.2:1b'
-
+from logger import logged_class
+@logged_class
 class LocalLlamaService(LLMService):
     """LLM Service using a local LLaMA model via REST API."""
     MODEL = LLAMA_3_2_1B
@@ -46,7 +47,8 @@ class LocalLlamaService(LLMService):
                 data = json.loads(line)
                 yield data["response"]
 
-
+from logger import logged_class
+@logged_class
 class LangchainAdapter(BaseChatModel):
     """Wrapper to use Langchain LLMs with our LLMService interface."""
     llm : LLMService

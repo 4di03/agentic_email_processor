@@ -1,6 +1,8 @@
 from enum import Enum
 from datetime import datetime
 import asyncio
+from logger import logged_class
+from db import FileDB
 from anthropic import RateLimitError
 import random
 from email_service import EmailService, Email
@@ -24,7 +26,6 @@ DEBUG = False
 SUMMARIZER_SYSTEM_PROMPT = open("prompts/single_email_summarizer_system_prompt.txt").read()
 CRITIC_SYSTEM_PROMPT = open("prompts/critic_prompt.txt").read()
 logger = Logger(context = "EmailSummarizer", debug=DEBUG)
-
 
 
 def strip_html_and_urls(text: str) -> str:
@@ -76,8 +77,13 @@ class EmailSummaryResponseFormat:
     
     email : Email | None  # The email being summarized. Leave none if is_important is false.
     is_important: bool #Whether the email is important and should be included in the summary.
-    justification: str  # Explanation for why the email was marked important or not.
     event_time_info: EventTimeInfo | None  # If the email is about a time-bounded event, the event time info.
+
+
+@dataclass 
+class EmailSummaryResponseFormatDebug(EmailSummaryResponseFormat):
+    """ Summary for a single email.  """
+    justification: str  # Explanation for why the email was marked important or not.
 
 
 
@@ -91,19 +97,18 @@ CACHED_EMAIL_SUMMARIZER_SYSTEM_MESSAGE = SystemMessage(
     ]
 )
 
-def init_email_summarizer(model : BaseChatModel, with_critic: bool = False) -> CompiledStateGraph:
-    agent = _init_email_summarizer_agent(model)
+def init_email_summarizer(model : BaseChatModel, with_critic: bool = False, response_format : type[EmailSummaryResponseFormat] = EmailSummaryResponseFormat) -> CompiledStateGraph:
+    agent = _init_email_summarizer_agent(model, response_format=response_format)
     critic_agent = _init_critic_agent(model) if with_critic else None
     email_service = EmailService.create_email_service()
     return EmailSummarizer(agent, email_service, critic_agent= critic_agent)
 
 
-def _init_email_summarizer_agent(model : BaseChatModel) -> CompiledStateGraph:
+def _init_email_summarizer_agent(model : BaseChatModel, response_format : type[EmailSummaryResponseFormat] = EmailSummaryResponseFormat) -> CompiledStateGraph:
     return create_agent(
         model=model,
         system_prompt = CACHED_EMAIL_SUMMARIZER_SYSTEM_MESSAGE,
-        response_format=ToolStrategy(EmailSummaryResponseFormat),
-
+        response_format=ToolStrategy(response_format),
     )
 
 CACHED_CRITIC_SYSTEM_MESSAGE = SystemMessage(
@@ -139,7 +144,8 @@ async def invoke_with_exp_backoff_retries(call):
 
 INVOKE_CONFIG=  {"configurable": {"max_tokens": 100}}
 
-
+from logger import logged_class
+@logged_class
 class EmailSummarizer:
 
     def __init__(self,  email_summarizer_agent : CompiledStateGraph,  email_service: EmailService, critic_agent : CompiledStateGraph | None = None):
@@ -149,14 +155,14 @@ class EmailSummarizer:
 
     async def _summarize_single_email_async(self, email: Email) -> EmailSummaryResponseFormat:
         email_str = strip_html_and_urls(str(email))[:MAX_CHARS_PER_EMAIL]
-        logger.log("Summarizing Email:\n" + email_str)
+        #logger.log("Summarizing Email:\n" + email_str)
 
         resp = await self.email_summarizer_agent.ainvoke(
             {"messages": [{"role": "user", "content": email_str}]},
             config=INVOKE_CONFIG,
         )
         # log message history for debugging
-        logger.log("LLM Message History:\n" + str(resp))
+        # logger.log("LLM Message History:\n" + str(resp))
 
         # usage = resp.get("usage") or resp.get("llm_output", {}).get("usage")
 
@@ -206,7 +212,8 @@ class EmailSummarizer:
         
         return self._summarize_emails(emails)
     
-    async def summarize_recent_emails(self, lookback_hours = 24):
-        # get emails from last lookback_hours
-        cutoff_time = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-        return await self._summarize_emails_async(list(self.email_service.get_recent_emails(cutoff_time=cutoff_time)))
+
+    
+    def get_db(self):
+        # returns the db used to track processed emails
+        return self.email_db

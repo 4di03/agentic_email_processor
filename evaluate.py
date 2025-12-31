@@ -1,5 +1,5 @@
 import asyncio
-from email_summarizer import EmailSummarizer, EmailSummaryResponseFormat, init_email_summarizer
+from email_summarizer import EmailSummarizer, EmailSummaryResponseFormatDebug, init_email_summarizer
 from llm_service import LocalLlamaService
 from email_service import EmailService, Email
 import json
@@ -26,7 +26,10 @@ def from_json_list(json_file_path : str, n : int = 100) -> dict[str, tuple[Email
     email_by_subject = {}
     for email_json in email_list_json:
         subject = email_json['subject']
-        email_by_subject[subject] = (Email(subject=email_json['subject'], body=email_json['body']), email_json['is_important'])
+        email_by_subject[subject] = Email(subject=email_json['subject'], 
+                                           body=email_json['body'],
+                                            message_id=email_json['subject'] # use subject as message_id for simplicity
+                                           ), email_json['is_important']
     
     return email_by_subject
 if __name__ == "__main__":
@@ -59,7 +62,7 @@ if __name__ == "__main__":
 
     print("Evaluating on", len(eval_emails), "emails")
 
-    email_summarizer = init_email_summarizer(model, with_critic=True)
+    email_summarizer = init_email_summarizer(model, with_critic=True, response_format=EmailSummaryResponseFormatDebug)
 
 
     summaries = asyncio.run(email_summarizer._summarize_emails_async(eval_emails, concurrency=10))

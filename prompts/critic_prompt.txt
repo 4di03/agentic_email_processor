@@ -68,4 +68,3 @@ in the output you will be asked to produce, for each email:
 - Subject: <email subject>
 - Summary: <very brief 1-sentence summary>
 - Important: <true/false>
-- Justification for Importance Decision: <brief explanation of why the email was marked IMPORTANT or NOT IMPORTANT, referencing the rules above>. Please CHECK all the of the rules I listed above to ensure your justification is complete.

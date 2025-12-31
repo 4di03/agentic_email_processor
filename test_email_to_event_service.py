@@ -14,9 +14,22 @@ if __name__ == "__main__":
         default="haiku",
         help="The LLM model to use for the Email to Event Service",
     )
+    argparser.add_argument(
+        "--dry_run",
+        action='store_true',
+        help="If set, the service will not create actual calendar events, just print them.",
+    )
+
+    argparser.add_argument(
+        "--hours-lookback",
+        type=int,
+        default=6,
+        help="Number of hours to look back for emails to process.",
+    )
+
     args = argparser.parse_args()
     model = MODELS[args.model]
     print("Using model:", args.model)
-    email_to_event_service = init_email_to_event_service(model=model, with_critic=True)
-    created_event_ids = asyncio.run(email_to_event_service.process_emails(lookback_hours=24))
+    email_to_event_service = init_email_to_event_service(model=model, with_critic=False, dry_run = args.dry_run)
+    created_event_ids = asyncio.run(email_to_event_service.process_emails(lookback_hours=args.hours_lookback))
     print("Created event IDs:", created_event_ids)
