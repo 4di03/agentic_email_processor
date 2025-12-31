@@ -1,4 +1,5 @@
-
+from enum import Enum
+from datetime import datetime
 import asyncio
 from anthropic import RateLimitError
 import random
@@ -72,15 +73,28 @@ def strip_html_and_urls(text: str) -> str:
     return text
 
 
+class Timezone(Enum):
+    PST = "America/Los_Angeles" # Pacific Standard Time
+    MST = "America/Denver" # Mountain Standard Time
+    CST = "America/Chicago" # Central Standard Time
+    EST = "America/New_York" # Eastern Standard Time
+    UTC = "UTC" # Coordinated Universal Time
+
+@dataclass
+class EventTimeInfo():
+    start_time : datetime    # If the email is for a time-bounded event, the start time of the event.
+    end_time : datetime      # If the email is for a time-bounded event, the end time of the event. 
+    timezone : Timezone = Timezone.PST  # The timezone of the event times. Default to PST if not specified.
+
 @dataclass
 class EmailSummaryResponseFormat:
     """ Summary for a single email.  """
     
     email : Email | None  # The email being summarized. Leave none if is_important is false.
-    
     is_important: bool #Whether the email is important and should be included in the summary.
-
     justification: str  # Explanation for why the email was marked important or not.
+    event_time_info: EventTimeInfo | None  # If the email is about a time-bounded event, the event time info.
+
 
 
 CACHED_EMAIL_SUMMARIZER_SYSTEM_MESSAGE = SystemMessage(
