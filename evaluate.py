@@ -65,7 +65,7 @@ if __name__ == "__main__":
     email_summarizer = init_email_summarizer(model, with_critic=True, response_format=EmailSummaryResponseFormatDebug)
 
 
-    summaries = asyncio.run(email_summarizer._summarize_emails_async(eval_emails, concurrency=10))
+    summaries = asyncio.run(email_summarizer._summarize_emails_async(eval_emails))
     
 
 

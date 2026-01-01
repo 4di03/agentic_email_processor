@@ -18,12 +18,28 @@ from langchain.agents.structured_output import ToolStrategy
 from langchain_core.messages import SystemMessage
 from langchain_core.callbacks import BaseCallbackHandler
 from datetime import datetime, timedelta, timezone
+from logger import logged_class, Logger
+from constants import TIMEOUTS_SECONDS
 
 MAX_CHARS_PER_EMAIL = 1000
+DEFAULT_CONCURRENCY = 5
 
+def _init_summarizer_prompt() -> str:
+    """
+    loads and initializes the email summarizer system prompt with dynamic policy information.
+    """
+    base_prompt = open("prompts/single_email_summarizer_system_prompt.txt").read()
+    
+    policy_text_lines = []
+    # add current timestamp
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    policy_text_lines.append(f"- Current Time: {current_time} (in UTC)")
+    
+
+    return base_prompt.replace("{dynamic_policy}", "\n".join(policy_text_lines))
 
 DEBUG = False
-SUMMARIZER_SYSTEM_PROMPT = open("prompts/single_email_summarizer_system_prompt.txt").read()
+SUMMARIZER_SYSTEM_PROMPT_TEMPLATE =_init_summarizer_prompt()
 CRITIC_SYSTEM_PROMPT = open("prompts/critic_prompt.txt").read()
 logger = Logger(context = "EmailSummarizer", debug=DEBUG)
 
@@ -91,7 +107,7 @@ CACHED_EMAIL_SUMMARIZER_SYSTEM_MESSAGE = SystemMessage(
     content=[
         {
             "type": "text",
-            "text": SUMMARIZER_SYSTEM_PROMPT,
+            "text": SUMMARIZER_SYSTEM_PROMPT_TEMPLATE,
             "cache_control": {"type": "ephemeral"},  # 🔑 THIS enables caching
         }
     ]
@@ -121,6 +137,14 @@ CACHED_CRITIC_SYSTEM_MESSAGE = SystemMessage(
     ]
 )
 
+def _create_default_event_time_info() -> EventTimeInfo:
+    now = datetime.now(timezone.utc)
+    return EventTimeInfo(
+        start_time= now + timedelta(hours=1),
+        end_time= now + timedelta(hours=2),
+        timezone= Timezone.UTC
+    )
+
 
 def _init_critic_agent(model : BaseChatModel) -> CompiledStateGraph:
     return create_agent(
@@ -131,22 +155,25 @@ def _init_critic_agent(model : BaseChatModel) -> CompiledStateGraph:
     )
 
 
-async def invoke_with_exp_backoff_retries(call):
-    for n in range(8): # max of up to 4 minutes
-        try:
-            return await call()
-        except RateLimitError as e:
-            #randomly wait between 2^n and 2^(n+1) seconds
-            wait_time = random.uniform(2**n, 2**(n+1))
-            logger.log(f"Rate limit error encountered in attempt {n}. Retrying in {wait_time} seconds...")
-            await asyncio.sleep(wait_time)
-    raise Exception("Max retries exceeded due to rate limiting.")
+
 
 INVOKE_CONFIG=  {"configurable": {"max_tokens": 100}}
 
-from logger import logged_class
+log = Logger(context = "EmailSummarizer", debug=DEBUG)
+
 @logged_class
 class EmailSummarizer:
+    async def _invoke_with_exp_backoff_retries(self, call):
+        for n in range(8): # max of up to 4 minutes
+            try:
+                return await call()
+            except RateLimitError as e:
+                #randomly wait between 2^n and 2^(n+1) seconds
+                wait_time = random.uniform(2**n, 2**(n+1))
+                log.log(f"Rate limit error encountered in attempt {n}. Retrying in {wait_time} seconds...")
+                await asyncio.sleep(wait_time)
+        raise Exception("Max retries exceeded due to rate limiting.")
+    
 
     def __init__(self,  email_summarizer_agent : CompiledStateGraph,  email_service: EmailService, critic_agent : CompiledStateGraph | None = None):
         self.email_summarizer_agent = email_summarizer_agent
@@ -155,14 +182,16 @@ class EmailSummarizer:
 
     async def _summarize_single_email_async(self, email: Email) -> EmailSummaryResponseFormat:
         email_str = strip_html_and_urls(str(email))[:MAX_CHARS_PER_EMAIL]
-        #logger.log("Summarizing Email:\n" + email_str)
+        logger.log("Summarizing Email with Subject: " + email.subject)
 
         resp = await self.email_summarizer_agent.ainvoke(
             {"messages": [{"role": "user", "content": email_str}]},
             config=INVOKE_CONFIG,
         )
+        logger.log("Completed invocation for Email with Subject: " + email.subject)
+
         # log message history for debugging
-        # logger.log("LLM Message History:\n" + str(resp))
+        logger.log("LLM Message History:\n" + str(resp))
 
         # usage = resp.get("usage") or resp.get("llm_output", {}).get("usage")
 
@@ -183,25 +212,49 @@ class EmailSummarizer:
 
         return structured
     
-    async def _summarize_emails_async(self, emails: list[Email], concurrency: int = 10):
-        print(f"Summarizing {len(emails)} emails with concurrency {concurrency}...")
+    async def _summarize_emails_async(self, emails: list[Email], concurrency: int = DEFAULT_CONCURRENCY):
+        log.log(f"Summarizing {len(emails)} emails with concurrency {concurrency}...")
         sem = asyncio.Semaphore(concurrency) # limits how many tasks can actively make llm calls at once
 
         async def worker(idx: int, email: Email):
+            log.log(f"Entering critical section for email {idx}, subject: {email.subject}")
             async with sem:
-                return idx, await invoke_with_exp_backoff_retries(lambda: self._summarize_single_email_async(email))
-
+                try:
+                    result = await asyncio.wait_for(
+                        self._invoke_with_exp_backoff_retries(
+                            lambda: self._summarize_single_email_async(email)
+                        ),
+                        timeout=TIMEOUTS_SECONDS,
+                    )
+                    return idx, result
+                except asyncio.TimeoutError: # if it takes too long, mark as important by default and leave a note in body
+                    log.log(f"TIMEOUT summarizing email {idx}")
+                    email_copy = Email(
+                        subject=f"Timeout for email : {email.subject}",
+                        message_id=email.message_id,
+                        body=email.body
+                    )
+                    
+                    result = EmailSummaryResponseFormat(
+                        email = email_copy,
+                        is_important = True,
+                        event_time_info = _create_default_event_time_info()
+                    )
+            log.log(f"Left critical section for email {idx}, subject: {email.subject}")
+            return idx, result
         tasks = [asyncio.create_task(worker(i, e)) for i, e in enumerate(emails)]
 
         summaries = [None] * len(emails)
         done = 0
         for fut in asyncio.as_completed(tasks):
             idx, result = await fut
+
+            result.email.message_id = emails[idx].message_id  # ensure message_id is set correctly
             summaries[idx] = result
             done += 1
-            if done % 5 == 0 or done == len(emails):
-                print(f"Progress: {done/len(emails)*100:.2f}%")
-        print("Summarization complete.")
+            
+            log.log(f"Progress: {done/len(emails)*100:.2f}%, ({done}/{len(emails)}) emails summarized.")
+        log.log("Summarization complete.")
         return summaries
 
     def _summarize_emails(self, emails : list[Email]) -> list[EmailSummaryResponseFormat]:

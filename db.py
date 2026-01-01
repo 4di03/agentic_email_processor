@@ -62,22 +62,18 @@ class FileDB(DB):
 
 
     def connect(self, **kwargs) -> None:
-        try:
-            with open(self.filename, 'r') as f:
-                self.store = json.load(f)
-        except FileNotFoundError:
-            self.store = {}
+        self._load_state()
 
 
     def disconnect(self) -> None:
-        with open(self.filename, 'w') as f:
-            import json
-            json.dump(self.store, f)
+        return
 
-    def _escape(self, s: str) -> str:
+    def _escape(self, s: Any) -> str:
         """
         we use space and newline as delimiters, so escape them
         """
+        s = str(s)
+
         return (
             s
             .replace("\\", "\\\\")   # escape backslash FIRST

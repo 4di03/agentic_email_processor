@@ -6,18 +6,20 @@ from email_summarizer import EmailSummarizer, Timezone, EmailSummaryResponseForm
 from llm_service import BaseChatModel
 from logger import Logger
 from datetime import datetime, timezone, timedelta
+from email_summarizer import EmailSummaryResponseFormatDebug
 def init_email_to_event_service(
     model : BaseChatModel,
     with_critic: bool = False,
     dry_run : bool = True,
+    response_format=EmailSummaryResponseFormatDebug
 ) -> "EmailToEventService":
     return EmailToEventService(
         calendar_service=CalendarService(),
-        email_summarizer=init_email_summarizer(model = model, with_critic= with_critic),
+        email_summarizer=init_email_summarizer(model = model, with_critic= with_critic, response_format=response_format),
         dry_run= dry_run,
     )
 
-logger = Logger(context = "EmailToEventService", debug=True)
+log = Logger(context = "EmailToEventService", debug=True)
 from logger import logged_class
 @logged_class
 class EmailToEventService:
@@ -33,6 +35,7 @@ class EmailToEventService:
 
     def _email_summary_to_event(self, email: EmailSummaryResponseFormat) -> CalendarEvent | None:
         if not email.is_important:
+            log.log("Email not important, skipping event creation for email with subject: " + (email.email.subject if email.email else "No Subject"))
             return None
         # Extract event details from email (this is a placeholder; actual implementation may vary)
 
@@ -65,7 +68,7 @@ class EmailToEventService:
             event = self._email_summary_to_event(email_summary)
             if event:
                 if self.dry_run:
-                    logger.log(f"Created Event: {event}")
+                    log.log(f"Created Event: {event}")
                     continue
                 event_id = self.calendar_service.create_event(event)
                 # mark email as processed

@@ -79,3 +79,9 @@ in the output you will be asked to produce, for each email:
 - Subject: <email subject>
 - Summary: <very brief 1-sentence summary>
 - Important: <true/false>
+
+
+━━━━━━━━━━━━━━━━━━━━━━
+Other Relevant Policy:
+━━━━━━━━━━━━━━━━━━━━━━
+{dynamic_policy}

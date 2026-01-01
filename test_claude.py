@@ -6,6 +6,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langchain.chat_models import init_chat_model
 from langgraph.checkpoint.memory import InMemorySaver
 from pprint import pprint
+from constants import TIMEOUTS_SECONDS
 checkpointer = InMemorySaver()
 
 TEMPERATURE = 0 # Higher temperature means more creative/stochastic responses, lower means more deterministic (0 just takes max prob everytime)
@@ -51,7 +52,7 @@ if __name__ == "__main__":
     model = init_chat_model(
         "claude-sonnet-4-5-20250929",
         temperature=TEMPERATURE,
-        timeout=10,
+        timeout=TIMEOUTS_SECONDS,
         max_tokens=1000
     )
 

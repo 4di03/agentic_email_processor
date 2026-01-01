@@ -1,6 +1,6 @@
 from __future__ import annotations
 from zoneinfo import ZoneInfo
-
+from email_summarizer import _create_default_event_time_info
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Optional
@@ -49,6 +49,8 @@ class CalendarService:
         #     return self._create_task(event)
 
         # Calendar events: need start/end; if missing, make a 30-min event "now"
+        if not event.event_time_info:
+            event.event_time_info = _create_default_event_time_info()
         start, end = self._normalize_times(event.event_time_info.start_time, event.event_time_info.end_time)
 
         body = {

@@ -4,17 +4,17 @@ from email_service import EmailService, Email
 from logger import Logger
 from langchain.chat_models import init_chat_model
 
-
+from constants import TIMEOUTS_SECONDS
 llama = LangchainAdapter(llm = LocalLlamaService())
 claude_sonnet = init_chat_model(
         "claude-sonnet-4-5-20250929",
         temperature=0,
-        timeout=30,
+        timeout=TIMEOUTS_SECONDS,
         max_tokens=1000,
     )
 haiku = init_chat_model(
     "claude-3-5-haiku-20241022",  # cheaper Claude Haiku
-    timeout=30,
+    timeout=TIMEOUTS_SECONDS,
     temperature=0,
     max_tokens=1000
 )

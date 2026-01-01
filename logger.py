@@ -31,27 +31,55 @@ class Logger:
         self.log(fmt % args)
 
 
+import functools
+import inspect
+import time
 
 def logged_class(cls):
-    """
-    class decorator that logs all method calls and their arguments/results/exceptions
-    """
+    """ class decorator that logs all method calls and their arguments/results/exceptions """
     if not DEBUG:
-        return cls# no-op if debugging is disabled
+        return cls
 
-    log = Logger(context = "Logging Middleware for " + cls.__name__, debug=True)
+    log = Logger(context="Logging Middleware for " + cls.__name__, debug=True)
+
+    def _log_call(name, args, kwargs):
+        log.log("CALL %s.%s args=%r kwargs=%r", cls.__name__, name, args, kwargs)
+
+    def _log_ret(name, res, dt):
+        log.log("RET  %s.%s -> %r (%.3fs)", cls.__name__, name, res, dt)
+
+    def _log_err(name):
+        log.log("ERR  %s.%s", cls.__name__, name)
+
     for name, attr in list(cls.__dict__.items()):
-        if inspect.isfunction(attr):  # normal instance method
+        if not inspect.isfunction(attr):
+            continue
+
+        if inspect.iscoroutinefunction(attr):
             @functools.wraps(attr)
-            def wrapped(self, *args, __f=attr, __n=name, **kwargs):
-                t0 = time.time()
-                log.log("CALL %s.%s args=%r kwargs=%r", cls.__name__, __n, args, kwargs)
+            async def wrapped(self, *args, __f=attr, __n=name, **kwargs):
+                t0 = time.perf_counter()
+                _log_call(__n, args, kwargs)
                 try:
-                    res = __f(self, *args, **kwargs)
-                    log.log("RET  %s.%s -> %r (%.3fs)", cls.__name__, __n, res, time.time()-t0)
+                    res = await __f(self, *args, **kwargs)
+                    _log_ret(__n, res, time.perf_counter() - t0)
                     return res
                 except Exception:
-                    log.log("ERR  %s.%s", cls.__name__, __n)
+                    _log_err(__n)
                     raise
             setattr(cls, name, wrapped)
+        else:
+            @functools.wraps(attr)
+            def wrapped(self, *args, __f=attr, __n=name, **kwargs):
+                t0 = time.perf_counter()
+                _log_call(__n, args, kwargs)
+                try:
+                    res = __f(self, *args, **kwargs)
+                    _log_ret(__n, res, time.perf_counter() - t0)
+                    return res
+                except Exception:
+                    _log_err(__n)
+                    raise
+            setattr(cls, name, wrapped)
+
     return cls
